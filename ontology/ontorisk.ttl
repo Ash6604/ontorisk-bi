@@ -1,0 +1,565 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ork: <http://ontorisk.example.org/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ontorisk.example.org/ontology> a owl:Ontology ;
+    rdfs:label "OntoRisk BI domain risk ontology"@en ;
+    dcterms:description "Compact ontology for business-risk intelligence: six classes, two object properties." ;
+    owl:versionInfo "1.0" .
+
+ork:RiskType_logistics a ork:RiskType,
+        owl:NamedIndividual ;
+    rdfs:label "logistics"@en ;
+    rdfs:comment "Port congestion / transport disruption"@en .
+
+ork:RiskType_policy a ork:RiskType,
+        owl:NamedIndividual ;
+    rdfs:label "policy"@en ;
+    rdfs:comment "Regulatory / policy change"@en .
+
+ork:RiskType_reputational a ork:RiskType,
+        owl:NamedIndividual ;
+    rdfs:label "reputational"@en ;
+    rdfs:comment "Brand / reputational incident"@en .
+
+ork:RiskType_supplier a ork:RiskType,
+        owl:NamedIndividual ;
+    rdfs:label "supplier"@en ;
+    rdfs:comment "Supplier failure / input shortage"@en .
+
+ork:RiskType_weather a ork:RiskType,
+        owl:NamedIndividual ;
+    rdfs:label "weather"@en ;
+    rdfs:comment "Monsoon / natural disaster"@en .
+
+ork:Term_anti_dumping_duty a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "policy" ;
+    ork:termLabel "anti-dumping duty" ;
+    ork:termWeight 2 .
+
+ork:Term_berthing_delays a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "logistics" ;
+    ork:termLabel "berthing delays" ;
+    ork:termWeight 2 .
+
+ork:Term_cargo_pile_up a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "logistics" ;
+    ork:termLabel "cargo pile-up" ;
+    ork:termWeight 2 .
+
+ork:Term_chip_shortage a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "supplier" ;
+    ork:termLabel "chip shortage" ;
+    ork:termWeight 2 .
+
+ork:Term_cloudburst a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "weather" ;
+    ork:termLabel "cloudburst" ;
+    ork:termWeight 3 .
+
+ork:Term_component_shortage a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "supplier" ;
+    ork:termLabel "component shortage" ;
+    ork:termWeight 2 .
+
+ork:Term_congestion a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "logistics" ;
+    ork:termLabel "congestion" ;
+    ork:termWeight 2 .
+
+ork:Term_consumer_boycott a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "reputational" ;
+    ork:termLabel "consumer boycott" ;
+    ork:termWeight 2 .
+
+ork:Term_container_shortage a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "logistics" ;
+    ork:termLabel "container shortage" ;
+    ork:termWeight 2 .
+
+ork:Term_customer_complaints a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "reputational" ;
+    ork:termLabel "customer complaints" ;
+    ork:termWeight 1 .
+
+ork:Term_cyclone a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "weather" ;
+    ork:termLabel "cyclone" ;
+    ork:termWeight 3 .
+
+ork:Term_data_breach a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "reputational" ;
+    ork:termLabel "data breach" ;
+    ork:termWeight 3 .
+
+ork:Term_drought a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "weather" ;
+    ork:termLabel "drought" ;
+    ork:termWeight 2 .
+
+ork:Term_dwell_time a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "logistics" ;
+    ork:termLabel "dwell time" ;
+    ork:termWeight 1 .
+
+ork:Term_export_ban a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "policy" ;
+    ork:termLabel "export ban" ;
+    ork:termWeight 3 .
+
+ork:Term_fire_at_the_plant a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "supplier" ;
+    ork:termLabel "fire at the plant" ;
+    ork:termWeight 3 .
+
+ork:Term_flood a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "weather" ;
+    ork:termLabel "flood" ;
+    ork:termWeight 3 .
+
+ork:Term_flooding a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "weather" ;
+    ork:termLabel "flooding" ;
+    ork:termWeight 3 .
+
+ork:Term_floods a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "weather" ;
+    ork:termLabel "floods" ;
+    ork:termWeight 3 .
+
+ork:Term_fraud_allegation a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "reputational" ;
+    ork:termLabel "fraud allegation" ;
+    ork:termWeight 3 .
+
+ork:Term_fraud_allegations a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "reputational" ;
+    ork:termLabel "fraud allegations" ;
+    ork:termWeight 3 .
+
+ork:Term_freight_delays a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "logistics" ;
+    ork:termLabel "freight delays" ;
+    ork:termWeight 2 .
+
+ork:Term_gst a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "policy" ;
+    ork:termLabel "gst" ;
+    ork:termWeight 1 .
+
+ork:Term_gst_revision a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "policy" ;
+    ork:termLabel "gst revision" ;
+    ork:termWeight 2 .
+
+ork:Term_heatwave a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "weather" ;
+    ork:termLabel "heatwave" ;
+    ork:termWeight 2 .
+
+ork:Term_heavy_rain a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "weather" ;
+    ork:termLabel "heavy rain" ;
+    ork:termWeight 2 .
+
+ork:Term_heavy_rainfall a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "weather" ;
+    ork:termLabel "heavy rainfall" ;
+    ork:termWeight 2 .
+
+ork:Term_highway_closure a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "logistics" ;
+    ork:termLabel "highway closure" ;
+    ork:termWeight 2 .
+
+ork:Term_import_duty a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "policy" ;
+    ork:termLabel "import duty" ;
+    ork:termWeight 2 .
+
+ork:Term_input_shortage a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "supplier" ;
+    ork:termLabel "input shortage" ;
+    ork:termWeight 2 .
+
+ork:Term_insolvency a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "supplier" ;
+    ork:termLabel "insolvency" ;
+    ork:termWeight 3 .
+
+ork:Term_inundated a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "weather" ;
+    ork:termLabel "inundated" ;
+    ork:termWeight 2 .
+
+ork:Term_labour_strike a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "supplier" ;
+    ork:termLabel "labour strike" ;
+    ork:termWeight 2 .
+
+ork:Term_landslide a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "weather" ;
+    ork:termLabel "landslide" ;
+    ork:termWeight 3 .
+
+ork:Term_landslides a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "weather" ;
+    ork:termLabel "landslides" ;
+    ork:termWeight 3 .
+
+ork:Term_licence_suspension a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "policy" ;
+    ork:termLabel "licence suspension" ;
+    ork:termWeight 3 .
+
+ork:Term_misselling a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "reputational" ;
+    ork:termLabel "misselling" ;
+    ork:termWeight 2 .
+
+ork:Term_monsoon a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "weather" ;
+    ork:termLabel "monsoon" ;
+    ork:termWeight 2 .
+
+ork:Term_new_compliance_norms a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "policy" ;
+    ork:termLabel "new compliance norms" ;
+    ork:termWeight 2 .
+
+ork:Term_penalty a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "policy" ;
+    ork:termLabel "penalty" ;
+    ork:termWeight 2 .
+
+ork:Term_plant_shutdown a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "supplier" ;
+    ork:termLabel "plant shutdown" ;
+    ork:termWeight 3 .
+
+ork:Term_policy_change a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "policy" ;
+    ork:termLabel "policy change" ;
+    ork:termWeight 2 .
+
+ork:Term_port_congestion a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "logistics" ;
+    ork:termLabel "port congestion" ;
+    ork:termWeight 3 .
+
+ork:Term_price_cap a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "policy" ;
+    ork:termLabel "price cap" ;
+    ork:termWeight 2 .
+
+ork:Term_product_recall a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "reputational" ;
+    ork:termLabel "product recall" ;
+    ork:termWeight 3 .
+
+ork:Term_production_halt a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "supplier" ;
+    ork:termLabel "production halt" ;
+    ork:termWeight 3 .
+
+ork:Term_quality_complaints a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "reputational" ;
+    ork:termLabel "quality complaints" ;
+    ork:termWeight 2 .
+
+ork:Term_rail_disruption a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "logistics" ;
+    ork:termLabel "rail disruption" ;
+    ork:termWeight 2 .
+
+ork:Term_raw_material_shortage a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "supplier" ;
+    ork:termLabel "raw material shortage" ;
+    ork:termWeight 2 .
+
+ork:Term_rbi_circular a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "policy" ;
+    ork:termLabel "rbi circular" ;
+    ork:termWeight 2 .
+
+ork:Term_recall a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "reputational" ;
+    ork:termLabel "recall" ;
+    ork:termWeight 2 .
+
+ork:Term_regulatory_crackdown a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "policy" ;
+    ork:termLabel "regulatory crackdown" ;
+    ork:termWeight 3 .
+
+ork:Term_shipment_delays a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "logistics" ;
+    ork:termLabel "shipment delays" ;
+    ork:termWeight 2 .
+
+ork:Term_social_media_backlash a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "reputational" ;
+    ork:termLabel "social media backlash" ;
+    ork:termWeight 2 .
+
+ork:Term_storm a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "weather" ;
+    ork:termLabel "storm" ;
+    ork:termWeight 2 .
+
+ork:Term_supplier_default a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "supplier" ;
+    ork:termLabel "supplier default" ;
+    ork:termWeight 3 .
+
+ork:Term_supplier_insolvency a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "supplier" ;
+    ork:termLabel "supplier insolvency" ;
+    ork:termWeight 3 .
+
+ork:Term_tariff_hike a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "policy" ;
+    ork:termLabel "tariff hike" ;
+    ork:termWeight 2 .
+
+ork:Term_transporters__strike a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "logistics" ;
+    ork:termLabel "transporters' strike" ;
+    ork:termWeight 3 .
+
+ork:Term_truckers__strike a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "logistics" ;
+    ork:termLabel "truckers' strike" ;
+    ork:termWeight 3 .
+
+ork:Term_vessel_backlog a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "logistics" ;
+    ork:termLabel "vessel backlog" ;
+    ork:termWeight 2 .
+
+ork:Term_waterlogging a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "weather" ;
+    ork:termLabel "waterlogging" ;
+    ork:termWeight 2 .
+
+ork:Term_whistleblower a ork:RiskTerm,
+        owl:NamedIndividual ;
+    ork:signalsCategory "reputational" ;
+    ork:termLabel "whistleblower" ;
+    ork:termWeight 2 .
+
+ork:affects a owl:ObjectProperty ;
+    rdfs:label "affects"@en ;
+    rdfs:comment "The entity is affected by (exposed to) the risk event."@en ;
+    rdfs:domain ork:Entity ;
+    rdfs:range ork:RiskEvent .
+
+ork:country a owl:DatatypeProperty ;
+    rdfs:comment "Country."@en ;
+    rdfs:domain ork:Location ;
+    rdfs:range xsd:string .
+
+ork:entityName a owl:DatatypeProperty ;
+    rdfs:comment "Normalised organisation name."@en ;
+    rdfs:domain ork:Entity ;
+    rdfs:range xsd:string .
+
+ork:eventDate a owl:DatatypeProperty ;
+    rdfs:comment "Publication date of the source article."@en ;
+    rdfs:domain ork:RiskEvent ;
+    rdfs:range xsd:date .
+
+ork:eventId a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:comment "Shared identifier linking the event to its warehouse fact row."@en ;
+    rdfs:domain ork:RiskEvent ;
+    rdfs:range xsd:string .
+
+ork:headline a owl:DatatypeProperty ;
+    rdfs:comment "Article headline."@en ;
+    rdfs:domain ork:SourceArticle ;
+    rdfs:range xsd:string .
+
+ork:impactScore a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:comment "Impact score on a 0-10 scale."@en ;
+    rdfs:domain ork:RiskEvent ;
+    rdfs:range xsd:decimal .
+
+ork:locatedIn a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "locatedIn"@en ;
+    rdfs:comment "The risk event takes place in the location."@en ;
+    rdfs:domain ork:RiskEvent ;
+    rdfs:range ork:Location .
+
+ork:matchedTerm a owl:DatatypeProperty ;
+    rdfs:comment "Vocabulary term that triggered the event."@en ;
+    rdfs:domain ork:RiskEvent ;
+    rdfs:range xsd:string .
+
+ork:mentionCount a owl:DatatypeProperty ;
+    rdfs:comment "Number of risk-vocabulary mentions of this type in the article."@en ;
+    rdfs:domain ork:RiskEvent ;
+    rdfs:range xsd:integer .
+
+ork:placeName a owl:DatatypeProperty ;
+    rdfs:comment "Normalised place name."@en ;
+    rdfs:domain ork:Location ;
+    rdfs:range xsd:string .
+
+ork:publisher a owl:DatatypeProperty ;
+    rdfs:comment "Article source / publisher."@en ;
+    rdfs:domain ork:SourceArticle ;
+    rdfs:range xsd:string .
+
+ork:region a owl:DatatypeProperty ;
+    rdfs:comment "Indian region (West, South, ...) or International."@en ;
+    rdfs:domain ork:Location ;
+    rdfs:range xsd:string .
+
+ork:riskCategory a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:comment "Name of the RiskType individual for the event."@en ;
+    rdfs:domain ork:RiskEvent ;
+    rdfs:range xsd:string .
+
+ork:sector a owl:DatatypeProperty ;
+    rdfs:comment "Business sector assigned to the entity in the article."@en ;
+    rdfs:domain ork:Entity ;
+    rdfs:range xsd:string .
+
+ork:severityBand a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:comment "Low / Medium / High band derived from the impact score."@en ;
+    rdfs:domain ork:RiskEvent ;
+    rdfs:range xsd:string .
+
+ork:signalsCategory a owl:DatatypeProperty ;
+    rdfs:comment "Risk type the term signals."@en ;
+    rdfs:domain ork:RiskTerm ;
+    rdfs:range xsd:string .
+
+ork:sourceId a owl:DatatypeProperty ;
+    rdfs:comment "Identifier of the source article (provenance as a property)."@en ;
+    rdfs:domain ork:RiskEvent ;
+    rdfs:range xsd:string .
+
+ork:state a owl:DatatypeProperty ;
+    rdfs:comment "State / province."@en ;
+    rdfs:domain ork:Location ;
+    rdfs:range xsd:string .
+
+ork:termLabel a owl:DatatypeProperty ;
+    rdfs:comment "Surface form of the vocabulary term."@en ;
+    rdfs:domain ork:RiskTerm ;
+    rdfs:range xsd:string .
+
+ork:termWeight a owl:DatatypeProperty ;
+    rdfs:comment "Weight (1-3) of the term in impact scoring."@en ;
+    rdfs:domain ork:RiskTerm ;
+    rdfs:range xsd:integer .
+
+ork:Entity a owl:Class ;
+    rdfs:label "Entity"@en ;
+    rdfs:comment "An organisation (company, bank, retailer...) that a risk event affects."@en ;
+    owl:disjointWith ork:Location,
+        ork:RiskTerm,
+        ork:RiskType,
+        ork:SourceArticle .
+
+ork:SourceArticle a owl:Class ;
+    rdfs:label "SourceArticle"@en ;
+    rdfs:comment "The news article a risk event was extracted from (provenance)."@en ;
+    owl:disjointWith ork:RiskTerm .
+
+ork:Location a owl:Class ;
+    rdfs:label "Location"@en ;
+    rdfs:comment "A geographic place (city, port, state, country) where a risk event occurs."@en ;
+    owl:disjointWith ork:RiskTerm,
+        ork:RiskType,
+        ork:SourceArticle .
+
+ork:RiskType a owl:Class ;
+    rdfs:label "RiskType"@en ;
+    rdfs:comment "The category of a risk: weather, logistics, policy, supplier or reputational."@en ;
+    owl:disjointWith ork:RiskTerm,
+        ork:SourceArticle .
+
+ork:RiskEvent a owl:Class ;
+    rdfs:label "RiskEvent"@en ;
+    rdfs:comment "A business-risk occurrence detected in text, e.g. a flood disrupting a warehouse."@en ;
+    owl:disjointWith ork:Entity,
+        ork:Location,
+        ork:RiskTerm,
+        ork:RiskType,
+        ork:SourceArticle .
+
+ork:RiskTerm a owl:Class ;
+    rdfs:label "RiskTerm"@en ;
+    rdfs:comment "A controlled-vocabulary keyword that signals a risk type (e.g. 'port congestion')."@en .
+

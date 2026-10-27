@@ -1,0 +1,67 @@
+{
+  "ontology_has_six_classes": {
+    "passed": true,
+    "result": [
+      [
+        "6"
+      ]
+    ]
+  },
+  "exactly_two_object_properties": {
+    "passed": true,
+    "result": [
+      [
+        "2"
+      ]
+    ]
+  },
+  "every_event_has_a_location": {
+    "passed": true,
+    "result": [
+      [
+        "0"
+      ]
+    ]
+  },
+  "every_event_affects_an_entity": {
+    "passed": true,
+    "result": [
+      [
+        "0"
+      ]
+    ]
+  },
+  "domain_range_respected": {
+    "passed": true,
+    "result": [
+      [
+        "0"
+      ]
+    ]
+  },
+  "events_per_risk_type": {
+    "passed": true,
+    "result": [
+      [
+        "logistics",
+        "113"
+      ],
+      [
+        "weather",
+        "86"
+      ],
+      [
+        "policy",
+        "74"
+      ],
+      [
+        "supplier",
+        "64"
+      ],
+      [
+        "reputational",
+        "50"
+      ]
+    ]
+  }
+}

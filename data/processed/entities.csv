@@ -1,0 +1,1591 @@
+article_id,para_no,label,text
+A0001,0,ORG,Vijaynagar Credit Ltd
+A0001,0,LOC,New Delhi
+A0001,0,DATE,3 to 11 days
+A0001,0,RISK_TERM,gst revision [policy]
+A0001,1,ORG,Ashoka Analytics
+A0001,1,LOC,Ahmedabad
+A0001,1,RISK_TERM,social media backlash [reputational]
+A0002,0,ORG,Saurashtra Logistics Ltd
+A0002,0,LOC,Kolkata
+A0002,0,DATE,this quarter
+A0002,0,RISK_TERM,truckers' strike [logistics]
+A0003,0,ORG,Vindhya Cement Ltd
+A0003,0,LOC,Tuticorin
+A0003,0,DATE,this quarter
+A0003,0,DATE,nearly 3 days
+A0003,0,RISK_TERM,freight delays [logistics]
+A0004,0,ORG,Coromandel Shipping Lines
+A0004,0,LOC,Kerala
+A0004,0,LOC,Kochi
+A0004,0,DATE,nearly 2 days
+A0004,0,RISK_TERM,inundated [weather]
+A0004,0,RISK_TERM,landslides [weather]
+A0004,1,ORG,Coromandel Shipping Lines
+A0004,1,LOC,Kolkata
+A0004,1,RISK_TERM,landslides [weather]
+A0004,1,RISK_TERM,freight delays [logistics]
+A0004,2,DATE,the coming weeks
+A0005,0,ORG,Nilgiri Pharma Ltd
+A0005,0,LOC,Chennai
+A0005,0,DATE,nearly 4 days
+A0005,0,RISK_TERM,vessel backlog [logistics]
+A0005,1,LOC,Hosur
+A0005,1,RISK_TERM,vessel backlog [logistics]
+A0005,1,RISK_TERM,plant shutdown [supplier]
+A0005,2,LOC,Kandla
+A0006,0,ORG,Himalaya Grocers Ltd
+A0006,0,LOC,Bengaluru
+A0006,0,RISK_TERM,fraud allegations [reputational]
+A0006,1,ORG,Northstar Securities
+A0006,1,LOC,Kandla
+A0006,1,RISK_TERM,fraud allegations [reputational]
+A0007,0,ORG,Sahyadri Textiles Ltd
+A0007,0,LOC,Mumbai
+A0007,0,DATE,3 to 10 days
+A0007,0,RISK_TERM,rbi circular [policy]
+A0007,1,ORG,Ashoka Analytics
+A0007,1,LOC,Gurugram
+A0008,0,ORG,Narmada Cooperative Bank
+A0008,0,LOC,Noida
+A0008,0,RISK_TERM,fraud allegations [reputational]
+A0008,1,ORG,Narmada Cooperative Bank
+A0008,1,LOC,New Delhi
+A0008,1,RISK_TERM,new compliance norms [policy]
+A0008,2,LOC,Surat
+A0008,2,RISK_TERM,landslides [weather]
+A0009,0,ORG,Vizag Port Logistics Ltd
+A0009,0,LOC,Kolkata
+A0009,0,DATE,nearly 3 days
+A0009,0,RISK_TERM,freight delays [logistics]
+A0009,1,LOC,Jaipur
+A0009,1,RISK_TERM,cloudburst [weather]
+A0010,0,ORG,Hosur Auto Components Ltd
+A0010,0,LOC,Kolkata
+A0010,0,LOC,West Bengal
+A0010,0,LOC,Hosur
+A0010,0,DATE,Saturday
+A0010,0,RISK_TERM,cyclone [weather]
+A0010,1,ORG,Lotus Ratings Agency
+A0010,1,LOC,Kozhikode
+A0011,0,ORG,Kalinga Steel Works
+A0011,0,LOC,Kolkata
+A0011,0,LOC,West Bengal
+A0011,0,DATE,nearly 9 days
+A0011,0,RISK_TERM,inundated [weather]
+A0011,0,RISK_TERM,waterlogging [weather]
+A0011,1,ORG,Kalinga Steel Works
+A0011,1,LOC,Colombo
+A0011,1,RISK_TERM,waterlogging [weather]
+A0011,1,RISK_TERM,port congestion [logistics]
+A0012,0,ORG,Sindhu Finance Ltd
+A0012,0,LOC,Noida
+A0012,0,RISK_TERM,consumer boycott [reputational]
+A0012,1,DATE,the coming weeks
+A0013,0,ORG,Annapurna Retail Ltd
+A0013,0,LOC,Mumbai
+A0013,0,RISK_TERM,quality complaints [reputational]
+A0013,1,LOC,Kolkata
+A0014,0,ORG,Saurashtra Logistics Ltd
+A0014,0,LOC,Bhubaneswar
+A0014,0,DATE,3 to 15 days
+A0014,0,RISK_TERM,flooding [weather]
+A0014,1,ORG,Ashoka Analytics
+A0014,1,LOC,Coimbatore
+A0015,0,ORG,BazaarKart Technologies
+A0015,0,LOC,Mangaluru
+A0015,0,LOC,Karnataka
+A0015,0,DATE,Wednesday
+A0015,0,RISK_TERM,floods [weather]
+A0015,1,DATE,the coming weeks
+A0016,0,ORG,Godavari Chemicals Ltd
+A0016,0,LOC,Bengaluru
+A0016,0,RISK_TERM,chip shortage [supplier]
+A0016,1,ORG,Ashoka Analytics
+A0016,1,LOC,Jaipur
+A0016,1,RISK_TERM,landslides [weather]
+A0016,2,DATE,the coming weeks
+A0017,0,ORG,BazaarKart Technologies
+A0017,0,LOC,Kolkata
+A0017,0,LOC,West Bengal
+A0017,0,DATE,nearly 6 days
+A0017,0,RISK_TERM,inundated [weather]
+A0017,0,RISK_TERM,monsoon [weather]
+A0017,1,ORG,Northstar Securities
+A0017,1,LOC,Nashik
+A0017,1,RISK_TERM,fraud allegations [reputational]
+A0018,0,ORG,Kaveri Fresh Mart
+A0018,0,LOC,Bengaluru
+A0018,0,RISK_TERM,fraud allegations [reputational]
+A0018,1,ORG,Lotus Ratings Agency
+A0018,1,LOC,Hosur
+A0019,0,ORG,Vijaynagar Credit Ltd
+A0019,0,LOC,Gurugram
+A0019,0,DATE,this week
+A0019,0,RISK_TERM,quality complaints [reputational]
+A0019,1,ORG,Northstar Securities
+A0019,1,LOC,Kozhikode
+A0019,1,RISK_TERM,freight delays [logistics]
+A0020,0,ORG,Saurashtra Logistics Ltd
+A0020,0,LOC,Nhava Sheva
+A0020,0,RISK_TERM,port congestion [logistics]
+A0021,0,ORG,UrbanCart Retail
+A0021,0,LOC,Kerala
+A0021,0,LOC,Kozhikode
+A0021,0,DATE,next quarter
+A0021,0,RISK_TERM,inundated [weather]
+A0021,0,RISK_TERM,floods [weather]
+A0022,0,ORG,Godavari Chemicals Ltd
+A0022,0,LOC,Nashik
+A0022,0,RISK_TERM,supplier default [supplier]
+A0023,0,ORG,Sangam Fashion Stores
+A0023,0,LOC,Kandla
+A0023,0,DATE,nearly 7 days
+A0023,0,RISK_TERM,port congestion [logistics]
+A0024,0,ORG,Nilgiri Pharma Ltd
+A0024,0,LOC,Mumbai
+A0024,0,RISK_TERM,heavy rain [weather]
+A0024,0,RISK_TERM,cloudburst [weather]
+A0024,1,ORG,Lotus Ratings Agency
+A0024,1,LOC,Paradip
+A0024,2,DATE,the coming weeks
+A0025,0,LOC,Kolkata
+A0025,0,DATE,next quarter
+A0025,0,RISK_TERM,flooding [weather]
+A0026,0,ORG,Saurashtra Logistics Ltd
+A0026,0,LOC,Assam
+A0026,0,LOC,Guwahati
+A0026,0,RISK_TERM,inundated [weather]
+A0026,0,RISK_TERM,cyclone [weather]
+A0026,1,ORG,Saurashtra Logistics Ltd
+A0026,1,LOC,Nhava Sheva
+A0026,1,RISK_TERM,cyclone [weather]
+A0026,1,RISK_TERM,vessel backlog [logistics]
+A0026,2,ORG,Ashoka Analytics
+A0026,2,LOC,Singapore
+A0026,2,RISK_TERM,plant shutdown [supplier]
+A0027,0,ORG,Garuda Insurance Company
+A0027,0,LOC,Ahmedabad
+A0027,0,DATE,next month
+A0027,0,RISK_TERM,export ban [policy]
+A0028,0,ORG,Vindhya Cement Ltd
+A0028,0,LOC,Nashik
+A0028,0,RISK_TERM,supplier insolvency [supplier]
+A0028,1,ORG,Ashoka Analytics
+A0028,1,LOC,Mumbai
+A0028,2,DATE,the coming weeks
+A0029,0,ORG,Himalaya Grocers Ltd
+A0029,0,LOC,Visakhapatnam
+A0029,0,DATE,nearly 9 days
+A0029,0,RISK_TERM,freight delays [logistics]
+A0030,0,ORG,Deccan Warehousing Corporation
+A0030,0,LOC,Singapore
+A0030,0,DATE,this quarter
+A0030,0,RISK_TERM,vessel backlog [logistics]
+A0030,1,DATE,the coming weeks
+A0031,0,ORG,BazaarKart Technologies
+A0031,0,LOC,New Delhi
+A0031,0,RISK_TERM,gst revision [policy]
+A0031,1,LOC,Nhava Sheva
+A0032,0,ORG,Sangam Fashion Stores
+A0032,0,LOC,Tuticorin
+A0032,0,DATE,a day
+A0032,0,RISK_TERM,berthing delays [logistics]
+A0033,0,ORG,Vindhya Cement Ltd
+A0033,0,LOC,Mumbai
+A0033,0,DATE,next quarter
+A0033,0,RISK_TERM,gst revision [policy]
+A0033,1,ORG,Vindhya Cement Ltd
+A0033,1,LOC,Coimbatore
+A0033,1,RISK_TERM,gst revision [policy]
+A0033,1,RISK_TERM,supplier default [supplier]
+A0033,2,ORG,Ashoka Analytics
+A0033,2,LOC,Nashik
+A0034,0,LOC,Visakhapatnam
+A0034,0,DATE,nearly 6 days
+A0034,0,RISK_TERM,port congestion [logistics]
+A0035,0,ORG,Deccan Warehousing Corporation
+A0035,0,LOC,Kochi
+A0035,0,DATE,a decade
+A0035,0,RISK_TERM,heavy rainfall [weather]
+A0035,1,ORG,Deccan Warehousing Corporation
+A0035,1,LOC,Haldia
+A0035,1,RISK_TERM,heavy rainfall [weather]
+A0035,1,RISK_TERM,port congestion [logistics]
+A0035,2,ORG,Northstar Securities
+A0035,2,LOC,Indore
+A0036,0,ORG,Annapurna Retail Ltd
+A0036,0,LOC,Bengaluru
+A0036,0,RISK_TERM,supplier insolvency [supplier]
+A0036,1,ORG,Lotus Ratings Agency
+A0036,1,LOC,Kandla
+A0036,1,RISK_TERM,regulatory crackdown [policy]
+A0037,0,ORG,Coromandel Shipping Lines
+A0037,0,LOC,Kandla
+A0037,0,RISK_TERM,truckers' strike [logistics]
+A0037,1,ORG,Lotus Ratings Agency
+A0037,1,LOC,Kolkata
+A0038,0,ORG,Vijaynagar Credit Ltd
+A0038,0,LOC,New Delhi
+A0038,0,DATE,next month
+A0038,0,DATE,4 to 13 days
+A0038,0,RISK_TERM,regulatory crackdown [policy]
+A0038,1,ORG,Vijaynagar Credit Ltd
+A0038,1,LOC,Jamshedpur
+A0038,1,RISK_TERM,regulatory crackdown [policy]
+A0038,1,RISK_TERM,component shortage [supplier]
+A0039,0,ORG,Hosur Auto Components Ltd
+A0039,0,LOC,Mumbai
+A0039,0,LOC,Hosur
+A0039,0,RISK_TERM,new compliance norms [policy]
+A0039,1,ORG,Hosur Auto Components Ltd
+A0039,1,LOC,Nashik
+A0039,1,LOC,Hosur
+A0039,1,RISK_TERM,new compliance norms [policy]
+A0039,1,RISK_TERM,chip shortage [supplier]
+A0039,2,ORG,Lotus Ratings Agency
+A0039,2,LOC,Hyderabad
+A0040,0,ORG,Annapurna Retail Ltd
+A0040,0,LOC,Tuticorin
+A0040,0,DATE,7 to 10 days
+A0040,0,RISK_TERM,cargo pile-up [logistics]
+A0040,1,ORG,Annapurna Retail Ltd
+A0040,1,LOC,Nashik
+A0040,1,RISK_TERM,cargo pile-up [logistics]
+A0040,1,RISK_TERM,raw material shortage [supplier]
+A0041,0,ORG,Eastern Gateway Logistics
+A0041,0,LOC,Singapore
+A0041,0,DATE,this quarter
+A0041,0,DATE,next quarter
+A0041,0,RISK_TERM,cargo pile-up [logistics]
+A0041,1,ORG,Meridian Research
+A0041,1,LOC,Paradip
+A0042,0,ORG,Sahyadri Textiles Ltd
+A0042,0,LOC,Ludhiana
+A0042,0,RISK_TERM,raw material shortage [supplier]
+A0042,1,ORG,Sahyadri Textiles Ltd
+A0042,1,LOC,Mumbai
+A0042,1,RISK_TERM,quality complaints [reputational]
+A0043,0,ORG,Vizag Port Logistics Ltd
+A0043,0,LOC,Visakhapatnam
+A0043,0,DATE,a decade
+A0043,0,RISK_TERM,cargo pile-up [logistics]
+A0043,1,ORG,Lotus Ratings Agency
+A0043,1,LOC,Hosur
+A0043,1,RISK_TERM,port congestion [logistics]
+A0044,0,ORG,Kalinga Steel Works
+A0044,0,LOC,Nhava Sheva
+A0044,0,DATE,7 to 11 days
+A0044,0,RISK_TERM,truckers' strike [logistics]
+A0044,1,LOC,Gurugram
+A0044,1,RISK_TERM,vessel backlog [logistics]
+A0045,0,LOC,Kolkata
+A0045,0,DATE,a decade
+A0045,0,RISK_TERM,heavy rain [weather]
+A0045,0,RISK_TERM,cyclone [weather]
+A0045,1,ORG,Lotus Ratings Agency
+A0045,1,LOC,Pune
+A0046,0,ORG,Vizag Port Logistics Ltd
+A0046,0,LOC,Paradip
+A0046,0,DATE,next quarter
+A0046,0,RISK_TERM,flooding [weather]
+A0046,1,ORG,Meridian Research
+A0046,1,LOC,Kochi
+A0046,1,RISK_TERM,tariff hike [policy]
+A0047,0,ORG,Saurashtra Logistics Ltd
+A0047,0,LOC,Kolkata
+A0047,0,DATE,nearly 9 days
+A0047,0,RISK_TERM,waterlogging [weather]
+A0047,1,ORG,Lotus Ratings Agency
+A0047,1,LOC,Guwahati
+A0047,2,DATE,the coming weeks
+A0048,0,ORG,Kalinga Steel Works
+A0048,0,LOC,Nhava Sheva
+A0048,0,RISK_TERM,container shortage [logistics]
+A0049,0,ORG,Konkan Freight Ltd
+A0049,0,LOC,Visakhapatnam
+A0049,0,DATE,a day
+A0049,0,RISK_TERM,truckers' strike [logistics]
+A0049,1,ORG,Northstar Securities
+A0049,1,LOC,Coimbatore
+A0050,0,ORG,Godavari Chemicals Ltd
+A0050,0,LOC,Paradip
+A0050,0,DATE,nearly 2 days
+A0050,0,RISK_TERM,heavy rainfall [weather]
+A0050,1,ORG,Godavari Chemicals Ltd
+A0050,1,LOC,Mundra
+A0050,1,RISK_TERM,heavy rainfall [weather]
+A0050,1,RISK_TERM,container shortage [logistics]
+A0051,0,ORG,Coromandel Shipping Lines
+A0051,0,LOC,Chennai
+A0051,0,DATE,next quarter
+A0051,0,RISK_TERM,vessel backlog [logistics]
+A0051,1,ORG,Coromandel Shipping Lines
+A0051,1,LOC,Coimbatore
+A0051,1,RISK_TERM,vessel backlog [logistics]
+A0051,1,RISK_TERM,component shortage [supplier]
+A0051,2,ORG,Lotus Ratings Agency
+A0051,2,LOC,Surat
+A0052,0,ORG,Eastern Gateway Logistics
+A0052,0,LOC,Chennai
+A0052,0,DATE,a day
+A0052,0,RISK_TERM,cargo pile-up [logistics]
+A0052,1,ORG,Eastern Gateway Logistics
+A0052,1,LOC,Ludhiana
+A0052,1,RISK_TERM,cargo pile-up [logistics]
+A0052,1,RISK_TERM,plant shutdown [supplier]
+A0052,2,ORG,Northstar Securities
+A0052,2,LOC,Jaipur
+A0052,2,RISK_TERM,labour strike [supplier]
+A0053,0,ORG,Sindhu Finance Ltd
+A0053,0,LOC,New Delhi
+A0053,0,DATE,next quarter
+A0053,0,RISK_TERM,new compliance norms [policy]
+A0053,1,ORG,Northstar Securities
+A0053,1,LOC,Kandla
+A0054,0,ORG,Narmada Cooperative Bank
+A0054,0,LOC,Mumbai
+A0054,0,DATE,nearly 7 days
+A0054,0,RISK_TERM,export ban [policy]
+A0055,0,ORG,Sahyadri Textiles Ltd
+A0055,0,LOC,Chennai
+A0055,0,DATE,nearly 3 days
+A0055,0,RISK_TERM,flooding [weather]
+A0055,1,ORG,Sahyadri Textiles Ltd
+A0055,1,LOC,Singapore
+A0055,1,RISK_TERM,flooding [weather]
+A0055,1,RISK_TERM,container shortage [logistics]
+A0055,2,ORG,Lotus Ratings Agency
+A0055,2,LOC,Coimbatore
+A0056,0,ORG,Kalinga Steel Works
+A0056,0,LOC,Ludhiana
+A0056,0,RISK_TERM,plant shutdown [supplier]
+A0057,0,ORG,Vizag Port Logistics Ltd
+A0057,0,LOC,Chennai
+A0057,0,LOC,Tamil Nadu
+A0057,0,RISK_TERM,inundated [weather]
+A0057,0,RISK_TERM,monsoon [weather]
+A0057,1,ORG,Lotus Ratings Agency
+A0057,1,LOC,Ludhiana
+A0057,1,RISK_TERM,import duty [policy]
+A0058,0,ORG,Eastern Gateway Logistics
+A0058,0,LOC,Assam
+A0058,0,LOC,Guwahati
+A0058,0,DATE,next quarter
+A0058,0,RISK_TERM,inundated [weather]
+A0058,0,RISK_TERM,monsoon [weather]
+A0058,1,ORG,Eastern Gateway Logistics
+A0058,1,LOC,Kolkata
+A0058,1,RISK_TERM,monsoon [weather]
+A0058,1,RISK_TERM,berthing delays [logistics]
+A0058,2,ORG,Lotus Ratings Agency
+A0058,2,LOC,Gurugram
+A0058,3,DATE,the coming weeks
+A0059,0,LOC,Visakhapatnam
+A0059,0,DATE,this quarter
+A0059,0,RISK_TERM,truckers' strike [logistics]
+A0059,1,LOC,Jaipur
+A0060,0,ORG,Hosur Auto Components Ltd
+A0060,0,LOC,New Delhi
+A0060,0,LOC,Hosur
+A0060,0,DATE,nearly 9 days
+A0060,0,RISK_TERM,price cap [policy]
+A0060,1,ORG,Lotus Ratings Agency
+A0060,1,LOC,Tuticorin
+A0060,1,RISK_TERM,rbi circular [policy]
+A0060,2,DATE,the coming weeks
+A0061,0,LOC,Odisha
+A0061,0,LOC,Bhubaneswar
+A0061,0,DATE,next quarter
+A0061,0,RISK_TERM,inundated [weather]
+A0061,0,RISK_TERM,flooding [weather]
+A0061,1,ORG,Ashoka Analytics
+A0061,1,LOC,Visakhapatnam
+A0061,2,DATE,the coming weeks
+A0062,0,ORG,Eastern Gateway Logistics
+A0062,0,LOC,Haldia
+A0062,0,RISK_TERM,berthing delays [logistics]
+A0062,1,ORG,Ashoka Analytics
+A0062,1,LOC,Bhubaneswar
+A0063,0,ORG,Hosur Auto Components Ltd
+A0063,0,LOC,Haldia
+A0063,0,LOC,Hosur
+A0063,0,DATE,this quarter
+A0063,0,DATE,7 to 15 days
+A0063,0,RISK_TERM,freight delays [logistics]
+A0063,1,LOC,Hosur
+A0064,0,ORG,Garuda Insurance Company
+A0064,0,LOC,New Delhi
+A0064,0,RISK_TERM,new compliance norms [policy]
+A0064,1,ORG,Lotus Ratings Agency
+A0064,1,LOC,Kochi
+A0064,1,RISK_TERM,export ban [policy]
+A0064,2,DATE,the coming weeks
+A0065,0,ORG,BazaarKart Technologies
+A0065,0,LOC,Bengaluru
+A0065,0,DATE,this week
+A0065,0,RISK_TERM,data breach [reputational]
+A0065,1,LOC,Bhubaneswar
+A0065,1,RISK_TERM,flooding [weather]
+A0066,0,ORG,Kalinga Steel Works
+A0066,0,LOC,Pune
+A0066,0,RISK_TERM,raw material shortage [supplier]
+A0066,1,DATE,the coming weeks
+A0067,0,ORG,Garuda Insurance Company
+A0067,0,LOC,New Delhi
+A0067,0,DATE,8 to 12 days
+A0067,0,RISK_TERM,tariff hike [policy]
+A0067,1,ORG,Meridian Research
+A0067,1,LOC,Pune
+A0068,0,ORG,Hosur Auto Components Ltd
+A0068,0,LOC,Haldia
+A0068,0,LOC,Hosur
+A0068,0,DATE,2 to 11 days
+A0068,0,RISK_TERM,cargo pile-up [logistics]
+A0068,1,ORG,Northstar Securities
+A0068,1,LOC,Bengaluru
+A0068,1,RISK_TERM,product recall [reputational]
+A0068,2,DATE,the coming weeks
+A0069,0,ORG,Kaveri Fresh Mart
+A0069,0,LOC,Bengaluru
+A0069,0,DATE,this week
+A0069,0,DATE,next quarter
+A0069,0,RISK_TERM,data breach [reputational]
+A0069,1,ORG,Ashoka Analytics
+A0069,1,LOC,Kochi
+A0069,1,RISK_TERM,flooding [weather]
+A0070,0,ORG,PaySetu Fintech
+A0070,0,LOC,Mumbai
+A0070,0,DATE,a decade
+A0070,0,RISK_TERM,anti-dumping duty [policy]
+A0070,1,ORG,PaySetu Fintech
+A0070,1,LOC,Surat
+A0070,1,RISK_TERM,anti-dumping duty [policy]
+A0070,1,RISK_TERM,production halt [supplier]
+A0070,2,LOC,New Delhi
+A0070,2,RISK_TERM,truckers' strike [logistics]
+A0071,0,ORG,Kaveri Fresh Mart
+A0071,0,LOC,Paradip
+A0071,0,LOC,Odisha
+A0071,0,RISK_TERM,inundated [weather]
+A0071,0,RISK_TERM,cloudburst [weather]
+A0071,1,ORG,Kaveri Fresh Mart
+A0071,1,LOC,Kandla
+A0071,1,RISK_TERM,cloudburst [weather]
+A0071,1,RISK_TERM,vessel backlog [logistics]
+A0071,2,LOC,Surat
+A0071,2,RISK_TERM,waterlogging [weather]
+A0072,0,ORG,Vindhya Cement Ltd
+A0072,0,LOC,Jamshedpur
+A0072,0,RISK_TERM,supplier insolvency [supplier]
+A0072,1,ORG,Ashoka Analytics
+A0072,1,LOC,Hosur
+A0073,0,ORG,Sahyadri Textiles Ltd
+A0073,0,LOC,Paradip
+A0073,0,LOC,Odisha
+A0073,0,DATE,Wednesday
+A0073,0,DATE,a decade
+A0073,0,RISK_TERM,monsoon [weather]
+A0074,0,ORG,Nilgiri Pharma Ltd
+A0074,0,LOC,Mumbai
+A0074,0,DATE,3 to 14 days
+A0074,0,RISK_TERM,new compliance norms [policy]
+A0074,1,ORG,Northstar Securities
+A0074,1,LOC,Singapore
+A0074,2,DATE,the coming weeks
+A0075,0,ORG,BazaarKart Technologies
+A0075,0,LOC,Hyderabad
+A0075,0,DATE,this week
+A0075,0,RISK_TERM,quality complaints [reputational]
+A0075,1,ORG,Ashoka Analytics
+A0075,1,LOC,Nhava Sheva
+A0076,0,ORG,Kaveri Fresh Mart
+A0076,0,LOC,New Delhi
+A0076,0,DATE,next month
+A0076,0,DATE,a day
+A0076,0,RISK_TERM,gst revision [policy]
+A0076,1,ORG,Northstar Securities
+A0076,1,LOC,Haldia
+A0077,0,ORG,Eastern Gateway Logistics
+A0077,0,LOC,Kolkata
+A0077,0,DATE,a decade
+A0077,0,RISK_TERM,container shortage [logistics]
+A0077,1,DATE,the coming weeks
+A0078,0,ORG,Sangam Fashion Stores
+A0078,0,LOC,Haldia
+A0078,0,DATE,next quarter
+A0078,0,RISK_TERM,vessel backlog [logistics]
+A0078,1,ORG,Meridian Research
+A0078,1,LOC,Ludhiana
+A0079,0,ORG,Kaveri Fresh Mart
+A0079,0,LOC,Nhava Sheva
+A0079,0,RISK_TERM,container shortage [logistics]
+A0079,1,ORG,Meridian Research
+A0079,1,LOC,Bhubaneswar
+A0079,2,DATE,the coming weeks
+A0080,0,ORG,Nilgiri Pharma Ltd
+A0080,0,LOC,Mangaluru
+A0080,0,RISK_TERM,floods [weather]
+A0080,1,ORG,Nilgiri Pharma Ltd
+A0080,1,LOC,Kandla
+A0080,1,RISK_TERM,floods [weather]
+A0080,1,RISK_TERM,freight delays [logistics]
+A0080,2,DATE,the coming weeks
+A0081,0,LOC,Jamshedpur
+A0081,0,RISK_TERM,supplier insolvency [supplier]
+A0082,0,ORG,Himalaya Grocers Ltd
+A0082,0,LOC,Singapore
+A0082,0,RISK_TERM,truckers' strike [logistics]
+A0082,1,ORG,Meridian Research
+A0082,1,LOC,Hyderabad
+A0082,1,RISK_TERM,fraud allegations [reputational]
+A0083,0,ORG,Kaveri Fresh Mart
+A0083,0,LOC,Chennai
+A0083,0,DATE,a day
+A0083,0,RISK_TERM,container shortage [logistics]
+A0083,1,DATE,the coming weeks
+A0084,0,LOC,Paradip
+A0084,0,DATE,nearly 6 days
+A0084,0,RISK_TERM,waterlogging [weather]
+A0084,1,ORG,Lotus Ratings Agency
+A0084,1,LOC,Singapore
+A0084,2,DATE,the coming weeks
+A0085,0,ORG,UrbanCart Retail
+A0085,0,LOC,Guwahati
+A0085,0,LOC,Assam
+A0085,0,DATE,Monday
+A0085,0,DATE,a decade
+A0085,0,RISK_TERM,landslides [weather]
+A0085,1,ORG,UrbanCart
+A0085,1,LOC,Chennai
+A0085,1,RISK_TERM,landslides [weather]
+A0085,1,RISK_TERM,port congestion [logistics]
+A0086,0,LOC,Gurugram
+A0086,0,DATE,this week
+A0086,0,DATE,next quarter
+A0086,0,RISK_TERM,data breach [reputational]
+A0086,1,ORG,Lotus Ratings Agency
+A0086,1,LOC,Singapore
+A0086,1,RISK_TERM,cyclone [weather]
+A0087,0,ORG,Trident Capital Ltd
+A0087,0,LOC,New Delhi
+A0087,0,DATE,a day
+A0087,0,RISK_TERM,price cap [policy]
+A0087,1,ORG,Northstar Securities
+A0087,1,LOC,Kandla
+A0088,0,ORG,Himalaya Grocers Ltd
+A0088,0,LOC,Mundra
+A0088,0,DATE,this quarter
+A0088,0,DATE,a day
+A0088,0,RISK_TERM,berthing delays [logistics]
+A0089,0,ORG,Konkan Freight Ltd
+A0089,0,LOC,Mundra
+A0089,0,DATE,this quarter
+A0089,0,DATE,next quarter
+A0089,0,RISK_TERM,container shortage [logistics]
+A0089,1,ORG,Lotus Ratings Agency
+A0089,1,LOC,Bhubaneswar
+A0089,1,RISK_TERM,new compliance norms [policy]
+A0090,0,ORG,Kalinga Steel Works
+A0090,0,LOC,Mundra
+A0090,0,RISK_TERM,freight delays [logistics]
+A0090,1,ORG,Meridian Research
+A0090,1,LOC,Pune
+A0090,1,RISK_TERM,social media backlash [reputational]
+A0091,0,ORG,Tapti Electronics Ltd
+A0091,0,LOC,Bhubaneswar
+A0091,0,LOC,Odisha
+A0091,0,DATE,Thursday
+A0091,0,DATE,a decade
+A0091,0,RISK_TERM,floods [weather]
+A0091,1,ORG,Northstar Securities
+A0091,1,LOC,Singapore
+A0091,1,RISK_TERM,component shortage [supplier]
+A0092,0,ORG,PaySetu Fintech
+A0092,0,LOC,Mumbai
+A0092,0,DATE,70
+A0092,0,RISK_TERM,social media backlash [reputational]
+A0092,1,ORG,Lotus Ratings Agency
+A0092,1,LOC,Nhava Sheva
+A0093,0,ORG,Brahmaputra Cargo Movers
+A0093,0,LOC,Mundra
+A0093,0,RISK_TERM,port congestion [logistics]
+A0094,0,ORG,BazaarKart Technologies
+A0094,0,LOC,Nhava Sheva
+A0094,0,DATE,this quarter
+A0094,0,RISK_TERM,berthing delays [logistics]
+A0094,1,LOC,Pune
+A0095,0,LOC,Noida
+A0095,0,DATE,this week
+A0095,0,RISK_TERM,data breach [reputational]
+A0095,1,LOC,Kochi
+A0096,0,ORG,Annapurna Retail Ltd
+A0096,0,LOC,Kerala
+A0096,0,LOC,Kozhikode
+A0096,0,DATE,Monday
+A0096,0,DATE,nearly 5 days
+A0096,0,RISK_TERM,monsoon [weather]
+A0096,1,ORG,Ashoka Analytics
+A0096,1,LOC,Colombo
+A0097,0,ORG,Trident Capital Ltd
+A0097,0,LOC,Hyderabad
+A0097,0,RISK_TERM,social media backlash [reputational]
+A0098,0,ORG,BazaarKart Technologies
+A0098,0,LOC,Chennai
+A0098,0,DATE,8 to 14 days
+A0098,0,RISK_TERM,port congestion [logistics]
+A0098,1,DATE,the coming weeks
+A0099,0,ORG,Vijaynagar Credit Ltd
+A0099,0,LOC,Mumbai
+A0099,0,DATE,this week
+A0099,0,DATE,next quarter
+A0099,0,RISK_TERM,social media backlash [reputational]
+A0099,1,ORG,Lotus Ratings Agency
+A0099,1,LOC,Ludhiana
+A0099,1,RISK_TERM,cyclone [weather]
+A0100,0,ORG,Kalinga Steel Works
+A0100,0,LOC,Mumbai
+A0100,0,LOC,Maharashtra
+A0100,0,DATE,Monday
+A0100,0,DATE,next quarter
+A0100,0,RISK_TERM,waterlogging [weather]
+A0100,1,ORG,Kalinga Steel Works
+A0100,1,LOC,Kandla
+A0100,1,RISK_TERM,waterlogging [weather]
+A0100,1,RISK_TERM,truckers' strike [logistics]
+A0101,0,ORG,Narmada Cooperative Bank
+A0101,0,LOC,Mumbai
+A0101,0,DATE,next month
+A0101,0,RISK_TERM,new compliance norms [policy]
+A0101,1,LOC,Jamshedpur
+A0101,1,RISK_TERM,cloudburst [weather]
+A0102,0,ORG,BazaarKart Technologies
+A0102,0,LOC,New Delhi
+A0102,0,DATE,next month
+A0102,0,DATE,a day
+A0102,0,RISK_TERM,price cap [policy]
+A0102,1,DATE,the coming weeks
+A0103,0,LOC,Gurugram
+A0103,0,DATE,this week
+A0103,0,DATE,8 to 15 days
+A0103,0,RISK_TERM,quality complaints [reputational]
+A0104,0,ORG,Sahyadri Textiles Ltd
+A0104,0,LOC,Pune
+A0104,0,RISK_TERM,component shortage [supplier]
+A0104,1,ORG,Lotus Ratings Agency
+A0104,1,LOC,Mangaluru
+A0105,0,ORG,Tapti Electronics Ltd
+A0105,0,LOC,Kochi
+A0105,0,DATE,a decade
+A0105,0,RISK_TERM,cloudburst [weather]
+A0105,1,ORG,Tapti Electronics Ltd
+A0105,1,LOC,Haldia
+A0105,1,RISK_TERM,cloudburst [weather]
+A0105,1,RISK_TERM,freight delays [logistics]
+A0105,2,LOC,Mangaluru
+A0105,2,RISK_TERM,monsoon [weather]
+A0105,3,DATE,the coming weeks
+A0106,0,ORG,Annapurna Retail Ltd
+A0106,0,LOC,Colombo
+A0106,0,DATE,this quarter
+A0106,0,RISK_TERM,berthing delays [logistics]
+A0106,1,ORG,Northstar Securities
+A0106,1,LOC,Hosur
+A0106,1,RISK_TERM,labour strike [supplier]
+A0107,0,LOC,Kolkata
+A0107,0,DATE,next quarter
+A0107,0,RISK_TERM,monsoon [weather]
+A0108,0,ORG,Kaveri Fresh Mart
+A0108,0,LOC,Mumbai
+A0108,0,RISK_TERM,quality complaints [reputational]
+A0109,0,ORG,Coromandel Shipping Lines
+A0109,0,LOC,Kolkata
+A0109,0,DATE,nearly 9 days
+A0109,0,RISK_TERM,waterlogging [weather]
+A0109,1,LOC,Singapore
+A0110,0,ORG,Vijaynagar Credit Ltd
+A0110,0,LOC,Mumbai
+A0110,0,DATE,3 to 12 days
+A0110,0,RISK_TERM,export ban [policy]
+A0110,1,ORG,Lotus Ratings Agency
+A0110,1,LOC,Haldia
+A0111,0,ORG,Sindhu Finance Ltd
+A0111,0,LOC,Hyderabad
+A0111,0,RISK_TERM,social media backlash [reputational]
+A0111,1,ORG,Meridian Research
+A0111,1,LOC,Kochi
+A0112,0,ORG,BazaarKart Technologies
+A0112,0,LOC,Mumbai
+A0112,0,RISK_TERM,gst revision [policy]
+A0112,1,ORG,Lotus Ratings Agency
+A0112,1,LOC,New Delhi
+A0113,0,ORG,Coromandel Shipping Lines
+A0113,0,LOC,Chennai
+A0113,0,RISK_TERM,cyclone [weather]
+A0113,1,ORG,Ashoka Analytics
+A0113,1,LOC,Bengaluru
+A0113,1,RISK_TERM,regulatory crackdown [policy]
+A0114,0,ORG,Saurashtra Logistics Ltd
+A0114,0,LOC,Paradip
+A0114,0,DATE,a decade
+A0114,0,RISK_TERM,cyclone [weather]
+A0114,1,ORG,Saurashtra Logistics Ltd
+A0114,1,LOC,Chennai
+A0114,1,RISK_TERM,cyclone [weather]
+A0114,1,RISK_TERM,berthing delays [logistics]
+A0114,2,ORG,Northstar Securities
+A0114,2,LOC,Kochi
+A0114,2,RISK_TERM,product recall [reputational]
+A0115,0,ORG,Vijaynagar Credit Ltd
+A0115,0,LOC,Mumbai
+A0115,0,DATE,a day
+A0115,0,RISK_TERM,social media backlash [reputational]
+A0115,1,LOC,Ahmedabad
+A0115,2,DATE,the coming weeks
+A0116,0,ORG,Godavari Chemicals Ltd
+A0116,0,LOC,Nashik
+A0116,0,RISK_TERM,supplier default [supplier]
+A0116,1,ORG,Lotus Ratings Agency
+A0116,1,LOC,Noida
+A0117,0,ORG,Kalinga Steel Works
+A0117,0,LOC,Mumbai
+A0117,0,DATE,next month
+A0117,0,DATE,a decade
+A0117,0,RISK_TERM,new compliance norms [policy]
+A0117,1,ORG,Kalinga Steel Works
+A0117,1,LOC,Bengaluru
+A0117,1,RISK_TERM,new compliance norms [policy]
+A0117,1,RISK_TERM,supplier default [supplier]
+A0117,2,ORG,Lotus Ratings Agency
+A0117,2,LOC,Tuticorin
+A0117,2,RISK_TERM,berthing delays [logistics]
+A0118,0,ORG,Malabar Container Services
+A0118,0,LOC,Mangaluru
+A0118,0,LOC,Karnataka
+A0118,0,DATE,Saturday
+A0118,0,DATE,9 to 15 days
+A0118,0,RISK_TERM,flooding [weather]
+A0119,0,ORG,Kalinga Steel Works
+A0119,0,LOC,Ludhiana
+A0119,0,DATE,nearly 2 days
+A0119,0,RISK_TERM,labour strike [supplier]
+A0119,1,ORG,Lotus Ratings Agency
+A0119,1,LOC,Nashik
+A0119,1,RISK_TERM,port congestion [logistics]
+A0120,0,ORG,Coromandel Shipping Lines
+A0120,0,LOC,Tuticorin
+A0120,0,DATE,this quarter
+A0120,0,RISK_TERM,vessel backlog [logistics]
+A0120,1,ORG,Coromandel Shipping Lines
+A0120,1,LOC,Pune
+A0120,1,RISK_TERM,vessel backlog [logistics]
+A0120,1,RISK_TERM,raw material shortage [supplier]
+A0120,2,LOC,Pune
+A0121,0,ORG,Malabar Container Services
+A0121,0,LOC,Chennai
+A0121,0,DATE,a decade
+A0121,0,RISK_TERM,container shortage [logistics]
+A0122,0,ORG,Garuda Insurance Company
+A0122,0,LOC,Mumbai
+A0122,0,DATE,next quarter
+A0122,0,RISK_TERM,tariff hike [policy]
+A0122,1,ORG,Northstar Securities
+A0122,1,LOC,Mundra
+A0122,1,RISK_TERM,social media backlash [reputational]
+A0123,0,ORG,Garuda Insurance Company
+A0123,0,LOC,Mumbai
+A0123,0,DATE,next quarter
+A0123,0,RISK_TERM,regulatory crackdown [policy]
+A0123,1,ORG,Garuda Insurance Company
+A0123,1,LOC,Hosur
+A0123,1,RISK_TERM,regulatory crackdown [policy]
+A0123,1,RISK_TERM,supplier default [supplier]
+A0123,2,ORG,Meridian Research
+A0123,2,LOC,Mundra
+A0123,2,RISK_TERM,freight delays [logistics]
+A0123,3,DATE,the coming weeks
+A0124,0,LOC,Tuticorin
+A0124,0,DATE,2 to 10 days
+A0124,0,RISK_TERM,freight delays [logistics]
+A0124,1,ORG,Lotus Ratings Agency
+A0124,1,LOC,Visakhapatnam
+A0124,1,RISK_TERM,plant shutdown [supplier]
+A0124,2,DATE,the coming weeks
+A0125,0,ORG,Saurashtra Logistics Ltd
+A0125,0,LOC,Mangaluru
+A0125,0,DATE,nearly 3 days
+A0125,0,RISK_TERM,heavy rain [weather]
+A0125,0,RISK_TERM,monsoon [weather]
+A0125,1,ORG,Saurashtra Logistics Ltd
+A0125,1,LOC,Singapore
+A0125,1,RISK_TERM,monsoon [weather]
+A0125,1,RISK_TERM,port congestion [logistics]
+A0125,2,LOC,New Delhi
+A0125,2,RISK_TERM,cargo pile-up [logistics]
+A0126,0,ORG,Garuda Insurance Company
+A0126,0,LOC,Hyderabad
+A0126,0,RISK_TERM,consumer boycott [reputational]
+A0127,0,ORG,Vizag Port Logistics Ltd
+A0127,0,LOC,Singapore
+A0127,0,DATE,next quarter
+A0127,0,RISK_TERM,berthing delays [logistics]
+A0127,1,ORG,Meridian Research
+A0127,1,LOC,Bengaluru
+A0128,0,ORG,Kalinga Steel Works
+A0128,0,LOC,Visakhapatnam
+A0128,0,RISK_TERM,truckers' strike [logistics]
+A0128,1,DATE,the coming weeks
+A0129,0,ORG,Trident Capital Ltd
+A0129,0,LOC,New Delhi
+A0129,0,DATE,next quarter
+A0129,0,RISK_TERM,regulatory crackdown [policy]
+A0129,1,ORG,Northstar Securities
+A0129,1,LOC,Visakhapatnam
+A0129,1,RISK_TERM,export ban [policy]
+A0129,2,DATE,the coming weeks
+A0130,0,ORG,PaySetu Fintech
+A0130,0,LOC,New Delhi
+A0130,0,RISK_TERM,export ban [policy]
+A0130,1,ORG,PaySetu Fintech
+A0130,1,LOC,Pune
+A0130,1,RISK_TERM,export ban [policy]
+A0130,1,RISK_TERM,chip shortage [supplier]
+A0130,2,LOC,Bengaluru
+A0131,0,ORG,Vijaynagar Credit Ltd
+A0131,0,LOC,Hyderabad
+A0131,0,DATE,a day
+A0131,0,RISK_TERM,data breach [reputational]
+A0131,1,ORG,Northstar Securities
+A0131,1,LOC,Tuticorin
+A0131,1,RISK_TERM,container shortage [logistics]
+A0132,0,ORG,Godavari Chemicals Ltd
+A0132,0,LOC,Hosur
+A0132,0,DATE,next quarter
+A0132,0,RISK_TERM,supplier default [supplier]
+A0133,0,ORG,Hosur Auto Components Ltd
+A0133,0,LOC,New Delhi
+A0133,0,LOC,Hosur
+A0133,0,DATE,next month
+A0133,0,DATE,nearly 5 days
+A0133,0,RISK_TERM,price cap [policy]
+A0134,0,ORG,Brahmaputra Cargo Movers
+A0134,0,LOC,Kozhikode
+A0134,0,LOC,Kerala
+A0134,0,DATE,Tuesday
+A0134,0,RISK_TERM,cyclone [weather]
+A0134,1,ORG,Brahmaputra Cargo Movers
+A0134,1,LOC,Kandla
+A0134,1,RISK_TERM,cyclone [weather]
+A0134,1,RISK_TERM,cargo pile-up [logistics]
+A0134,2,ORG,Northstar Securities
+A0134,2,LOC,Tuticorin
+A0135,0,ORG,Vijaynagar Credit Ltd
+A0135,0,LOC,New Delhi
+A0135,0,DATE,8 to 11 days
+A0135,0,RISK_TERM,price cap [policy]
+A0135,1,ORG,Lotus Ratings Agency
+A0135,1,LOC,Bhubaneswar
+A0135,1,RISK_TERM,fraud allegations [reputational]
+A0136,0,ORG,Trident Capital Ltd
+A0136,0,LOC,Mumbai
+A0136,0,DATE,next quarter
+A0136,0,RISK_TERM,data breach [reputational]
+A0136,1,ORG,Meridian Research
+A0136,1,LOC,Jamshedpur
+A0137,0,LOC,Paradip
+A0137,0,RISK_TERM,floods [weather]
+A0137,1,ORG,Kalinga Steel Works
+A0137,1,LOC,Kolkata
+A0137,1,RISK_TERM,floods [weather]
+A0137,1,RISK_TERM,freight delays [logistics]
+A0137,2,ORG,Northstar Securities
+A0137,2,LOC,Hyderabad
+A0137,2,RISK_TERM,supplier default [supplier]
+A0137,3,DATE,the coming weeks
+A0138,0,ORG,Saurashtra Logistics Ltd
+A0138,0,LOC,Chennai
+A0138,0,LOC,Tamil Nadu
+A0138,0,RISK_TERM,inundated [weather]
+A0138,0,RISK_TERM,monsoon [weather]
+A0139,0,ORG,Himalaya Grocers Ltd
+A0139,0,LOC,Ludhiana
+A0139,0,DATE,next quarter
+A0139,0,RISK_TERM,supplier default [supplier]
+A0140,0,ORG,BazaarKart Technologies
+A0140,0,LOC,Singapore
+A0140,0,RISK_TERM,port congestion [logistics]
+A0140,1,DATE,the coming weeks
+A0141,0,ORG,Coromandel Shipping Lines
+A0141,0,LOC,Paradip
+A0141,0,RISK_TERM,flooding [weather]
+A0141,1,ORG,Coromandel Shipping Lines
+A0141,1,LOC,Mundra
+A0141,1,RISK_TERM,flooding [weather]
+A0141,1,RISK_TERM,truckers' strike [logistics]
+A0141,2,ORG,Ashoka Analytics
+A0141,2,LOC,Jaipur
+A0142,0,ORG,Coromandel Shipping Lines
+A0142,0,LOC,Tuticorin
+A0142,0,DATE,this quarter
+A0142,0,RISK_TERM,berthing delays [logistics]
+A0143,0,ORG,Brahmaputra Cargo Movers
+A0143,0,LOC,Kolkata
+A0143,0,DATE,next quarter
+A0143,0,RISK_TERM,flooding [weather]
+A0143,1,ORG,Brahmaputra Cargo Movers
+A0143,1,LOC,Kandla
+A0143,1,RISK_TERM,flooding [weather]
+A0143,1,RISK_TERM,port congestion [logistics]
+A0143,2,ORG,Ashoka Analytics
+A0143,2,LOC,Jamshedpur
+A0143,2,RISK_TERM,product recall [reputational]
+A0144,0,ORG,Vizag Port Logistics Ltd
+A0144,0,LOC,Mundra
+A0144,0,DATE,next quarter
+A0144,0,RISK_TERM,vessel backlog [logistics]
+A0144,1,ORG,Lotus Ratings Agency
+A0144,1,LOC,Kozhikode
+A0145,0,ORG,Himalaya Grocers Ltd
+A0145,0,LOC,Chennai
+A0145,0,LOC,Tamil Nadu
+A0145,0,DATE,Thursday
+A0145,0,DATE,next quarter
+A0145,0,RISK_TERM,heavy rainfall [weather]
+A0145,1,ORG,Northstar Securities
+A0145,1,LOC,Indore
+A0145,1,RISK_TERM,port congestion [logistics]
+A0146,0,ORG,Narmada Cooperative Bank
+A0146,0,LOC,Gurugram
+A0146,0,RISK_TERM,consumer boycott [reputational]
+A0147,0,ORG,Kalinga Steel Works
+A0147,0,LOC,Ahmedabad
+A0147,0,DATE,next month
+A0147,0,DATE,4 to 14 days
+A0147,0,RISK_TERM,regulatory crackdown [policy]
+A0148,0,ORG,Godavari Chemicals Ltd
+A0148,0,LOC,Ludhiana
+A0148,0,DATE,a decade
+A0148,0,RISK_TERM,component shortage [supplier]
+A0149,0,ORG,Tapti Electronics Ltd
+A0149,0,LOC,Nashik
+A0149,0,RISK_TERM,labour strike [supplier]
+A0149,1,DATE,the coming weeks
+A0150,0,ORG,Sahyadri Textiles Ltd
+A0150,0,LOC,Kolkata
+A0150,0,DATE,nearly 3 days
+A0150,0,RISK_TERM,container shortage [logistics]
+A0150,1,LOC,Jaipur
+A0151,0,ORG,Eastern Gateway Logistics
+A0151,0,LOC,Guwahati
+A0151,0,LOC,Assam
+A0151,0,DATE,Tuesday
+A0151,0,DATE,a decade
+A0151,0,RISK_TERM,flooding [weather]
+A0151,1,ORG,Eastern Gateway Logistics
+A0151,1,LOC,Haldia
+A0151,1,RISK_TERM,flooding [weather]
+A0151,1,RISK_TERM,freight delays [logistics]
+A0151,2,ORG,Meridian Research
+A0151,2,LOC,Tuticorin
+A0152,0,ORG,BazaarKart Technologies
+A0152,0,LOC,Gurugram
+A0152,0,DATE,4 to 14 days
+A0152,0,RISK_TERM,fraud allegations [reputational]
+A0152,1,ORG,Lotus Ratings Agency
+A0152,1,LOC,Colombo
+A0153,0,ORG,Vindhya Cement Ltd
+A0153,0,LOC,Singapore
+A0153,0,DATE,this quarter
+A0153,0,DATE,9 to 10 days
+A0153,0,RISK_TERM,container shortage [logistics]
+A0153,1,ORG,Northstar Securities
+A0153,1,LOC,Ludhiana
+A0154,0,ORG,Saurashtra Logistics Ltd
+A0154,0,LOC,Nhava Sheva
+A0154,0,DATE,5 to 12 days
+A0154,0,RISK_TERM,cargo pile-up [logistics]
+A0155,0,ORG,Saurashtra Logistics Ltd
+A0155,0,LOC,Visakhapatnam
+A0155,0,DATE,this quarter
+A0155,0,DATE,5 to 12 days
+A0155,0,RISK_TERM,port congestion [logistics]
+A0155,1,ORG,Northstar Securities
+A0155,1,LOC,Noida
+A0156,0,ORG,Garuda Insurance Company
+A0156,0,LOC,Noida
+A0156,0,DATE,a day
+A0156,0,RISK_TERM,product recall [reputational]
+A0157,0,ORG,Annapurna Retail Ltd
+A0157,0,LOC,Mumbai
+A0157,0,RISK_TERM,data breach [reputational]
+A0157,1,ORG,Lotus Ratings Agency
+A0157,1,LOC,Gurugram
+A0158,0,ORG,Hosur Auto Components Ltd
+A0158,0,LOC,Paradip
+A0158,0,LOC,Hosur
+A0158,0,DATE,next quarter
+A0158,0,RISK_TERM,heavy rain [weather]
+A0158,0,RISK_TERM,floods [weather]
+A0158,1,ORG,Hosur Auto Components Ltd
+A0158,1,LOC,Colombo
+A0158,1,LOC,Hosur
+A0158,1,RISK_TERM,floods [weather]
+A0158,1,RISK_TERM,freight delays [logistics]
+A0158,2,ORG,Northstar Securities
+A0158,2,LOC,Pune
+A0159,0,ORG,Trident Capital Ltd
+A0159,0,LOC,Gurugram
+A0159,0,DATE,this week
+A0159,0,RISK_TERM,consumer boycott [reputational]
+A0159,1,ORG,Northstar Securities
+A0159,1,LOC,Bhubaneswar
+A0159,1,RISK_TERM,floods [weather]
+A0160,0,ORG,Nilgiri Pharma Ltd
+A0160,0,LOC,Surat
+A0160,0,DATE,next quarter
+A0160,0,RISK_TERM,plant shutdown [supplier]
+A0160,1,LOC,Mundra
+A0160,1,RISK_TERM,labour strike [supplier]
+A0161,0,ORG,Garuda Insurance Company
+A0161,0,LOC,New Delhi
+A0161,0,RISK_TERM,rbi circular [policy]
+A0161,1,ORG,Garuda Insurance Company
+A0161,1,LOC,Pune
+A0161,1,RISK_TERM,rbi circular [policy]
+A0161,1,RISK_TERM,plant shutdown [supplier]
+A0162,0,ORG,Tapti Electronics Ltd
+A0162,0,LOC,Pune
+A0162,0,DATE,2 to 12 days
+A0162,0,RISK_TERM,labour strike [supplier]
+A0162,1,LOC,New Delhi
+A0162,1,RISK_TERM,floods [weather]
+A0163,0,ORG,Trident Capital Ltd
+A0163,0,LOC,Bengaluru
+A0163,0,RISK_TERM,data breach [reputational]
+A0163,1,ORG,Meridian Research
+A0163,1,LOC,Mundra
+A0164,0,ORG,Konkan Freight Ltd
+A0164,0,LOC,Chennai
+A0164,0,RISK_TERM,container shortage [logistics]
+A0164,1,LOC,New Delhi
+A0165,0,ORG,Kalinga Steel Works
+A0165,0,LOC,Surat
+A0165,0,DATE,3 to 13 days
+A0165,0,RISK_TERM,chip shortage [supplier]
+A0166,0,ORG,Godavari Chemicals Ltd
+A0166,0,LOC,New Delhi
+A0166,0,DATE,9 to 15 days
+A0166,0,RISK_TERM,import duty [policy]
+A0166,1,ORG,Godavari Chemicals Ltd
+A0166,1,LOC,Surat
+A0166,1,RISK_TERM,import duty [policy]
+A0166,1,RISK_TERM,component shortage [supplier]
+A0166,2,ORG,Northstar Securities
+A0166,2,LOC,Visakhapatnam
+A0166,2,RISK_TERM,landslides [weather]
+A0166,3,DATE,the coming weeks
+A0167,0,ORG,Kalinga Steel Works
+A0167,0,LOC,Nashik
+A0167,0,RISK_TERM,production halt [supplier]
+A0167,1,ORG,Ashoka Analytics
+A0167,1,LOC,Indore
+A0167,1,RISK_TERM,truckers' strike [logistics]
+A0168,0,ORG,Malabar Container Services
+A0168,0,LOC,Guwahati
+A0168,0,LOC,Assam
+A0168,0,DATE,Saturday
+A0168,0,DATE,next quarter
+A0168,0,RISK_TERM,waterlogging [weather]
+A0169,0,ORG,Garuda Insurance Company
+A0169,0,LOC,New Delhi
+A0169,0,RISK_TERM,price cap [policy]
+A0169,1,ORG,Lotus Ratings Agency
+A0169,1,LOC,Jamshedpur
+A0170,0,ORG,Tapti Electronics Ltd
+A0170,0,LOC,Colombo
+A0170,0,RISK_TERM,vessel backlog [logistics]
+A0170,1,LOC,Jamshedpur
+A0170,2,DATE,the coming weeks
+A0171,0,ORG,Himalaya Grocers Ltd
+A0171,0,LOC,New Delhi
+A0171,0,DATE,next month
+A0171,0,RISK_TERM,new compliance norms [policy]
+A0171,1,ORG,Himalaya Grocers Ltd
+A0171,1,LOC,Jamshedpur
+A0171,1,RISK_TERM,new compliance norms [policy]
+A0171,1,RISK_TERM,chip shortage [supplier]
+A0171,2,DATE,the coming weeks
+A0172,0,ORG,Hosur Auto Components Ltd
+A0172,0,LOC,Hosur
+A0172,0,DATE,next quarter
+A0172,0,RISK_TERM,production halt [supplier]
+A0172,1,ORG,Hosur Auto Components Ltd
+A0172,1,LOC,Mumbai
+A0172,1,LOC,Hosur
+A0172,1,RISK_TERM,social media backlash [reputational]
+A0172,2,LOC,Noida
+A0173,0,ORG,Vijaynagar Credit Ltd
+A0173,0,LOC,Hyderabad
+A0173,0,DATE,a day
+A0173,0,RISK_TERM,quality complaints [reputational]
+A0173,1,ORG,Northstar Securities
+A0173,1,LOC,Nhava Sheva
+A0173,2,DATE,the coming weeks
+A0174,0,ORG,Konkan Freight Ltd
+A0174,0,LOC,Chennai
+A0174,0,RISK_TERM,vessel backlog [logistics]
+A0174,1,ORG,Konkan Freight Ltd
+A0174,1,LOC,Bengaluru
+A0174,1,RISK_TERM,vessel backlog [logistics]
+A0174,1,RISK_TERM,component shortage [supplier]
+A0174,2,ORG,Ashoka Analytics
+A0174,2,LOC,Mangaluru
+A0174,3,DATE,the coming weeks
+A0175,0,ORG,Vindhya Cement Ltd
+A0175,0,LOC,Kozhikode
+A0175,0,LOC,Kerala
+A0175,0,DATE,Saturday
+A0175,0,DATE,a decade
+A0175,0,RISK_TERM,floods [weather]
+A0175,1,ORG,Vindhya Cement Ltd
+A0175,1,LOC,Visakhapatnam
+A0175,1,RISK_TERM,floods [weather]
+A0175,1,RISK_TERM,port congestion [logistics]
+A0175,2,DATE,the coming weeks
+A0176,0,ORG,BazaarKart Technologies
+A0176,0,LOC,Paradip
+A0176,0,RISK_TERM,heavy rain [weather]
+A0176,0,RISK_TERM,heavy rainfall [weather]
+A0176,1,LOC,Ludhiana
+A0176,1,RISK_TERM,raw material shortage [supplier]
+A0176,2,DATE,the coming weeks
+A0177,0,ORG,Deccan Warehousing Corporation
+A0177,0,LOC,Mangaluru
+A0177,0,RISK_TERM,heavy rainfall [weather]
+A0177,1,ORG,Deccan Warehousing Corporation
+A0177,1,LOC,Mundra
+A0177,1,RISK_TERM,heavy rainfall [weather]
+A0177,1,RISK_TERM,freight delays [logistics]
+A0177,2,LOC,New Delhi
+A0177,2,RISK_TERM,fraud allegations [reputational]
+A0177,3,DATE,the coming weeks
+A0178,0,ORG,Vindhya Cement Ltd
+A0178,0,LOC,Pune
+A0178,0,DATE,next quarter
+A0178,0,RISK_TERM,labour strike [supplier]
+A0178,1,DATE,the coming weeks
+A0179,0,ORG,Himalaya Grocers Ltd
+A0179,0,LOC,New Delhi
+A0179,0,DATE,next month
+A0179,0,DATE,next quarter
+A0179,0,RISK_TERM,export ban [policy]
+A0179,1,ORG,Lotus Ratings Agency
+A0179,1,LOC,Guwahati
+A0180,0,ORG,Narmada Cooperative Bank
+A0180,0,LOC,New Delhi
+A0180,0,DATE,next month
+A0180,0,DATE,next quarter
+A0180,0,RISK_TERM,tariff hike [policy]
+A0180,1,ORG,Narmada Cooperative Bank
+A0180,1,LOC,Nashik
+A0180,1,RISK_TERM,tariff hike [policy]
+A0180,1,RISK_TERM,production halt [supplier]
+A0180,2,ORG,Northstar Securities
+A0180,2,LOC,Paradip
+A0180,2,RISK_TERM,freight delays [logistics]
+A0181,0,ORG,Himalaya Grocers Ltd
+A0181,0,LOC,Visakhapatnam
+A0181,0,DATE,7 to 11 days
+A0181,0,RISK_TERM,cargo pile-up [logistics]
+A0181,1,ORG,Northstar Securities
+A0181,1,LOC,Chennai
+A0182,0,ORG,Saurashtra Logistics Ltd
+A0182,0,LOC,Singapore
+A0182,0,RISK_TERM,port congestion [logistics]
+A0182,1,LOC,Indore
+A0182,2,DATE,the coming weeks
+A0183,0,ORG,Vijaynagar Credit Ltd
+A0183,0,LOC,Hyderabad
+A0183,0,DATE,a day
+A0183,0,RISK_TERM,consumer boycott [reputational]
+A0183,1,ORG,Lotus Ratings Agency
+A0183,1,LOC,Colombo
+A0184,0,ORG,Brahmaputra Cargo Movers
+A0184,0,LOC,Mumbai
+A0184,0,LOC,Maharashtra
+A0184,0,DATE,Monday
+A0184,0,RISK_TERM,landslides [weather]
+A0184,1,LOC,Hosur
+A0184,2,DATE,the coming weeks
+A0185,0,ORG,Malabar Container Services
+A0185,0,LOC,Paradip
+A0185,0,DATE,nearly 3 days
+A0185,0,RISK_TERM,monsoon [weather]
+A0185,1,ORG,Malabar Container Services
+A0185,1,LOC,Chennai
+A0185,1,RISK_TERM,monsoon [weather]
+A0185,1,RISK_TERM,berthing delays [logistics]
+A0185,2,ORG,Lotus Ratings Agency
+A0185,2,LOC,Haldia
+A0186,0,ORG,Malabar Container Services
+A0186,0,LOC,Mumbai
+A0186,0,DATE,nearly 6 days
+A0186,0,RISK_TERM,heavy rain [weather]
+A0186,0,RISK_TERM,landslides [weather]
+A0186,1,ORG,Meridian Research
+A0186,1,LOC,Haldia
+A0187,0,LOC,Kochi
+A0187,0,DATE,next quarter
+A0187,0,RISK_TERM,cyclone [weather]
+A0187,1,ORG,Vindhya Cement Ltd
+A0187,1,LOC,Mundra
+A0187,1,RISK_TERM,cyclone [weather]
+A0187,1,RISK_TERM,port congestion [logistics]
+A0187,2,ORG,Ashoka Analytics
+A0187,2,LOC,Jaipur
+A0187,2,RISK_TERM,quality complaints [reputational]
+A0188,0,ORG,Vindhya Cement Ltd
+A0188,0,LOC,Ahmedabad
+A0188,0,DATE,a decade
+A0188,0,RISK_TERM,import duty [policy]
+A0188,1,ORG,Northstar Securities
+A0188,1,LOC,Noida
+A0188,1,RISK_TERM,plant shutdown [supplier]
+A0189,0,ORG,Kalinga Steel Works
+A0189,0,LOC,Surat
+A0189,0,RISK_TERM,labour strike [supplier]
+A0189,1,ORG,Northstar Securities
+A0189,1,LOC,Kochi
+A0189,2,DATE,the coming weeks
+A0190,0,ORG,Malabar Container Services
+A0190,0,LOC,Colombo
+A0190,0,DATE,this quarter
+A0190,0,DATE,next quarter
+A0190,0,RISK_TERM,truckers' strike [logistics]
+A0191,0,ORG,Sahyadri Textiles Ltd
+A0191,0,LOC,Coimbatore
+A0191,0,DATE,9 to 14 days
+A0191,0,RISK_TERM,component shortage [supplier]
+A0191,1,ORG,Sahyadri Textiles Ltd
+A0191,1,LOC,Hyderabad
+A0191,1,RISK_TERM,consumer boycott [reputational]
+A0191,2,ORG,Lotus Ratings Agency
+A0191,2,LOC,Bhubaneswar
+A0191,2,RISK_TERM,flooding [weather]
+A0192,0,ORG,UrbanCart Retail
+A0192,0,LOC,Bhubaneswar
+A0192,0,LOC,Odisha
+A0192,0,DATE,Wednesday
+A0192,0,DATE,nearly 2 days
+A0192,0,RISK_TERM,landslides [weather]
+A0192,1,DATE,the coming weeks
+A0193,0,ORG,Sahyadri Textiles Ltd
+A0193,0,LOC,Mumbai
+A0193,0,DATE,a day
+A0193,0,RISK_TERM,import duty [policy]
+A0193,1,LOC,Kochi
+A0193,1,RISK_TERM,quality complaints [reputational]
+A0193,2,DATE,the coming weeks
+A0194,0,ORG,Garuda Insurance Company
+A0194,0,LOC,Hyderabad
+A0194,0,DATE,next quarter
+A0194,0,RISK_TERM,fraud allegations [reputational]
+A0194,1,ORG,Northstar Securities
+A0194,1,LOC,Bengaluru
+A0195,0,ORG,Himalaya Grocers Ltd
+A0195,0,LOC,Tuticorin
+A0195,0,RISK_TERM,port congestion [logistics]
+A0195,1,ORG,Ashoka Analytics
+A0195,1,LOC,New Delhi
+A0196,0,ORG,Kaveri Fresh Mart
+A0196,0,LOC,Bengaluru
+A0196,0,DATE,a decade
+A0196,0,RISK_TERM,plant shutdown [supplier]
+A0196,1,ORG,Lotus Ratings Agency
+A0196,1,LOC,Gurugram
+A0197,0,ORG,UrbanCart Retail
+A0197,0,LOC,Hyderabad
+A0197,0,DATE,a day
+A0197,0,RISK_TERM,social media backlash [reputational]
+A0197,1,ORG,Ashoka Analytics
+A0197,1,LOC,Tuticorin
+A0198,0,ORG,Kaveri Fresh Mart
+A0198,0,LOC,Gurugram
+A0198,0,DATE,4 to 14 days
+A0198,0,RISK_TERM,social media backlash [reputational]
+A0198,1,LOC,Chennai
+A0199,0,ORG,Saurashtra Logistics Ltd
+A0199,0,LOC,Kolkata
+A0199,0,LOC,West Bengal
+A0199,0,DATE,55
+A0199,0,RISK_TERM,inundated [weather]
+A0199,0,RISK_TERM,waterlogging [weather]
+A0199,1,ORG,Meridian Research
+A0199,1,LOC,Ludhiana
+A0199,1,RISK_TERM,price cap [policy]
+A0199,2,DATE,the coming weeks
+A0200,0,ORG,Trident Capital Ltd
+A0200,0,LOC,New Delhi
+A0200,0,DATE,a decade
+A0200,0,RISK_TERM,anti-dumping duty [policy]
+A0200,1,ORG,Ashoka Analytics
+A0200,1,LOC,Hosur
+A0201,0,LOC,Paradip
+A0201,0,DATE,4 to 10 days
+A0201,0,RISK_TERM,flooding [weather]
+A0202,0,ORG,Coromandel Shipping Lines
+A0202,0,LOC,Haldia
+A0202,0,RISK_TERM,freight delays [logistics]
+A0202,1,ORG,Ashoka Analytics
+A0202,1,LOC,Paradip
+A0202,2,DATE,the coming weeks
+A0203,0,ORG,Kaveri Fresh Mart
+A0203,0,LOC,Colombo
+A0203,0,RISK_TERM,container shortage [logistics]
+A0204,0,ORG,Deccan Warehousing Corporation
+A0204,0,LOC,Nhava Sheva
+A0204,0,RISK_TERM,port congestion [logistics]
+A0205,0,ORG,UrbanCart Retail
+A0205,0,LOC,Kandla
+A0205,0,DATE,nearly 8 days
+A0205,0,RISK_TERM,container shortage [logistics]
+A0205,1,DATE,the coming weeks
+A0206,0,ORG,Nilgiri Pharma Ltd
+A0206,0,LOC,Coimbatore
+A0206,0,RISK_TERM,plant shutdown [supplier]
+A0206,1,LOC,Bengaluru
+A0206,1,RISK_TERM,quality complaints [reputational]
+A0206,2,ORG,Ashoka Analytics
+A0206,2,LOC,Nashik
+A0207,0,ORG,Eastern Gateway Logistics
+A0207,0,LOC,Kolkata
+A0207,0,LOC,West Bengal
+A0207,0,DATE,2 to 12 days
+A0207,0,RISK_TERM,inundated [weather]
+A0207,0,RISK_TERM,flooding [weather]
+A0207,1,ORG,Eastern Gateway Logistics
+A0207,1,LOC,Haldia
+A0207,1,RISK_TERM,flooding [weather]
+A0207,1,RISK_TERM,berthing delays [logistics]
+A0207,2,ORG,Meridian Research
+A0207,2,LOC,Ludhiana
+A0207,2,RISK_TERM,import duty [policy]
+A0208,0,ORG,Hosur Auto Components Ltd
+A0208,0,LOC,Nashik
+A0208,0,LOC,Hosur
+A0208,0,DATE,next quarter
+A0208,0,RISK_TERM,plant shutdown [supplier]
+A0208,1,ORG,Northstar Securities
+A0208,1,LOC,Paradip
+A0209,0,ORG,Saurashtra Logistics Ltd
+A0209,0,LOC,Visakhapatnam
+A0209,0,DATE,nearly 5 days
+A0209,0,RISK_TERM,freight delays [logistics]
+A0209,1,ORG,Saurashtra Logistics Ltd
+A0209,1,LOC,Ludhiana
+A0209,1,RISK_TERM,freight delays [logistics]
+A0209,1,RISK_TERM,raw material shortage [supplier]
+A0209,2,LOC,Paradip
+A0210,0,ORG,Godavari Chemicals Ltd
+A0210,0,LOC,Nashik
+A0210,0,DATE,a decade
+A0210,0,RISK_TERM,supplier default [supplier]
+A0210,1,LOC,Haldia
+A0210,2,DATE,the coming weeks
+A0211,0,LOC,Ahmedabad
+A0211,0,DATE,next quarter
+A0211,0,RISK_TERM,regulatory crackdown [policy]
+A0211,1,ORG,Ashoka Analytics
+A0211,1,LOC,Colombo
+A0211,1,RISK_TERM,quality complaints [reputational]
+A0212,0,ORG,Coromandel Shipping Lines
+A0212,0,LOC,Mundra
+A0212,0,RISK_TERM,freight delays [logistics]
+A0213,0,ORG,Himalaya Grocers Ltd
+A0213,0,LOC,Mundra
+A0213,0,DATE,a day
+A0213,0,RISK_TERM,port congestion [logistics]
+A0213,1,LOC,Bengaluru
+A0213,2,DATE,the coming weeks
+A0214,0,ORG,Annapurna Retail Ltd
+A0214,0,LOC,Gurugram
+A0214,0,DATE,7 to 15 days
+A0214,0,RISK_TERM,quality complaints [reputational]
+A0214,1,ORG,Lotus Ratings Agency
+A0214,1,LOC,Nashik
+A0215,0,ORG,Trident Capital Ltd
+A0215,0,LOC,Hyderabad
+A0215,0,DATE,this week
+A0215,0,RISK_TERM,social media backlash [reputational]
+A0215,1,ORG,Meridian Research
+A0215,1,LOC,New Delhi
+A0216,0,ORG,Konkan Freight Ltd
+A0216,0,LOC,Odisha
+A0216,0,LOC,Bhubaneswar
+A0216,0,RISK_TERM,inundated [weather]
+A0216,0,RISK_TERM,cyclone [weather]
+A0216,1,ORG,Meridian Research
+A0216,1,LOC,Bengaluru
+A0217,0,ORG,Annapurna Retail Ltd
+A0217,0,LOC,Jamshedpur
+A0217,0,RISK_TERM,raw material shortage [supplier]
+A0218,0,ORG,Eastern Gateway Logistics
+A0218,0,LOC,Colombo
+A0218,0,RISK_TERM,freight delays [logistics]
+A0218,1,ORG,Lotus Ratings Agency
+A0218,1,LOC,Mundra
+A0218,1,RISK_TERM,export ban [policy]
+A0218,2,DATE,the coming weeks
+A0219,0,ORG,Hosur Auto Components Ltd
+A0219,0,LOC,Chennai
+A0219,0,LOC,Hosur
+A0219,0,DATE,6 to 13 days
+A0219,0,RISK_TERM,container shortage [logistics]
+A0219,1,ORG,Northstar Securities
+A0219,1,LOC,Nashik
+A0219,1,RISK_TERM,production halt [supplier]
+A0219,2,DATE,the coming weeks
+A0220,0,ORG,Narmada Cooperative Bank
+A0220,0,LOC,New Delhi
+A0220,0,RISK_TERM,price cap [policy]
+A0220,1,ORG,Narmada Cooperative Bank
+A0220,1,LOC,Hosur
+A0220,1,RISK_TERM,price cap [policy]
+A0220,1,RISK_TERM,supplier default [supplier]
+A0221,0,ORG,Deccan Warehousing Corporation
+A0221,0,LOC,Haldia
+A0221,0,RISK_TERM,container shortage [logistics]
+A0221,1,ORG,Northstar Securities
+A0221,1,LOC,Indore
+A0221,1,RISK_TERM,consumer boycott [reputational]
+A0221,2,DATE,the coming weeks
+A0222,0,ORG,PaySetu Fintech
+A0222,0,LOC,Mumbai
+A0222,0,DATE,next month
+A0222,0,DATE,a decade
+A0222,0,RISK_TERM,export ban [policy]
+A0222,1,DATE,the coming weeks
+A0223,0,ORG,Narmada Cooperative Bank
+A0223,0,LOC,Mumbai
+A0223,0,RISK_TERM,price cap [policy]
+A0223,1,ORG,Narmada Cooperative Bank
+A0223,1,LOC,Ludhiana
+A0223,1,RISK_TERM,price cap [policy]
+A0223,1,RISK_TERM,production halt [supplier]
+A0223,2,ORG,Meridian Research
+A0223,2,LOC,Chennai
+A0224,0,ORG,BazaarKart Technologies
+A0224,0,LOC,Hyderabad
+A0224,0,RISK_TERM,social media backlash [reputational]
+A0224,1,ORG,Ashoka Analytics
+A0224,1,LOC,Kolkata
+A0225,0,ORG,BazaarKart Technologies
+A0225,0,LOC,Surat
+A0225,0,RISK_TERM,chip shortage [supplier]
+A0226,0,ORG,Tapti Electronics Ltd
+A0226,0,LOC,Visakhapatnam
+A0226,0,DATE,this quarter
+A0226,0,DATE,next quarter
+A0226,0,RISK_TERM,berthing delays [logistics]
+A0226,1,ORG,Lotus Ratings Agency
+A0226,1,LOC,Pune
+A0227,0,ORG,Brahmaputra Cargo Movers
+A0227,0,LOC,Mumbai
+A0227,0,DATE,4 to 13 days
+A0227,0,RISK_TERM,heavy rain [weather]
+A0227,0,RISK_TERM,cloudburst [weather]
+A0227,1,ORG,Brahmaputra Cargo Movers
+A0227,1,LOC,Tuticorin
+A0227,1,RISK_TERM,cloudburst [weather]
+A0227,1,RISK_TERM,truckers' strike [logistics]
+A0227,2,ORG,Meridian Research
+A0227,2,LOC,Chennai
+A0227,2,RISK_TERM,component shortage [supplier]
+A0228,0,ORG,Godavari Chemicals Ltd
+A0228,0,LOC,Mumbai
+A0228,0,LOC,Maharashtra
+A0228,0,DATE,Tuesday
+A0228,0,DATE,a decade
+A0228,0,RISK_TERM,landslides [weather]
+A0228,1,ORG,Meridian Research
+A0228,1,LOC,Ahmedabad
+A0229,0,ORG,Saurashtra Logistics Ltd
+A0229,0,LOC,Kandla
+A0229,0,RISK_TERM,container shortage [logistics]
+A0230,0,ORG,Sahyadri Textiles Ltd
+A0230,0,LOC,Surat
+A0230,0,RISK_TERM,chip shortage [supplier]
+A0231,0,ORG,Kalinga Steel Works
+A0231,0,LOC,Bengaluru
+A0231,0,RISK_TERM,plant shutdown [supplier]
+A0231,1,ORG,Lotus Ratings Agency
+A0231,1,LOC,Ahmedabad
+A0231,1,RISK_TERM,social media backlash [reputational]
+A0232,0,LOC,Noida
+A0232,0,DATE,nearly 6 days
+A0232,0,RISK_TERM,consumer boycott [reputational]
+A0232,1,ORG,UrbanCart Retail
+A0232,1,LOC,New Delhi
+A0232,1,RISK_TERM,tariff hike [policy]
+A0232,2,LOC,Hosur
+A0233,0,ORG,Annapurna Retail Ltd
+A0233,0,LOC,Kandla
+A0233,0,DATE,this quarter
+A0233,0,DATE,next quarter
+A0233,0,RISK_TERM,truckers' strike [logistics]
+A0233,1,LOC,Nashik
+A0234,0,ORG,Kalinga Steel Works
+A0234,0,LOC,New Delhi
+A0234,0,RISK_TERM,price cap [policy]
+A0234,1,ORG,Kalinga Steel Works
+A0234,1,LOC,Pune
+A0234,1,RISK_TERM,price cap [policy]
+A0234,1,RISK_TERM,supplier default [supplier]
+A0235,0,ORG,Himalaya Grocers Ltd
+A0235,0,LOC,Kolkata
+A0235,0,DATE,this quarter
+A0235,0,DATE,next quarter
+A0235,0,RISK_TERM,port congestion [logistics]
+A0235,1,LOC,New Delhi
+A0235,2,DATE,the coming weeks
+A0236,0,ORG,Annapurna Retail Ltd
+A0236,0,LOC,Chennai
+A0236,0,DATE,a decade
+A0236,0,RISK_TERM,container shortage [logistics]
+A0236,1,ORG,Annapurna Retail Ltd
+A0236,1,LOC,Ludhiana
+A0236,1,RISK_TERM,container shortage [logistics]
+A0236,1,RISK_TERM,production halt [supplier]
+A0236,2,ORG,Northstar Securities
+A0236,2,LOC,Mundra
+A0236,2,RISK_TERM,anti-dumping duty [policy]
+A0237,0,ORG,Eastern Gateway Logistics
+A0237,0,LOC,Mumbai
+A0237,0,LOC,Maharashtra
+A0237,0,RISK_TERM,inundated [weather]
+A0237,0,RISK_TERM,flooding [weather]
+A0237,1,ORG,Eastern Gateway Logistics
+A0237,1,LOC,Nhava Sheva
+A0237,1,RISK_TERM,flooding [weather]
+A0237,1,RISK_TERM,truckers' strike [logistics]
+A0237,2,LOC,Nashik
+A0238,0,ORG,Kaveri Fresh Mart
+A0238,0,LOC,Ludhiana
+A0238,0,DATE,next quarter
+A0238,0,RISK_TERM,chip shortage [supplier]
+A0239,0,LOC,Hyderabad
+A0239,0,DATE,this week
+A0239,0,RISK_TERM,product recall [reputational]
+A0239,1,ORG,UrbanCart Retail
+A0239,1,LOC,New Delhi
+A0239,1,RISK_TERM,tariff hike [policy]
+A0239,2,LOC,Mumbai
+A0239,3,DATE,the coming weeks
+A0240,0,LOC,Gurugram
+A0240,0,DATE,nearly 9 days
+A0240,0,RISK_TERM,consumer boycott [reputational]
+A0240,1,ORG,UrbanCart Retail
+A0240,1,LOC,New Delhi
+A0240,1,RISK_TERM,import duty [policy]
+A0240,2,LOC,Kandla
+A0240,3,DATE,the coming weeks

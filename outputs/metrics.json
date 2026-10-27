@@ -1,0 +1,300 @@
+{
+  "nlp_backend": "spaCy 3.8.18 / en_core_web_sm 3.8.0",
+  "warehouse_engine": "DuckDB 2.0.0",
+  "etl_quality": {
+    "rows_in": 243,
+    "rejected_empty_text": 1,
+    "rejected_duplicate_id": 1,
+    "rejected_duplicate_text": 0,
+    "rejected_bad_date": 1,
+    "rows_out": 240
+  },
+  "ner": {
+    "mentions_by_label": {
+      "LOC": 503,
+      "RISK_TERM": 432,
+      "ORG": 399,
+      "DATE": 256
+    },
+    "distinct_orgs": 32,
+    "distinct_places": 39
+  },
+  "rdf": {
+    "total_triples": 6068,
+    "abox_triples": 5605
+  },
+  "sparql_validation": {
+    "ontology_has_six_classes": true,
+    "exactly_two_object_properties": true,
+    "every_event_has_a_location": true,
+    "every_event_affects_an_entity": true,
+    "domain_range_respected": true,
+    "events_per_risk_type": true
+  },
+  "warehouse": {
+    "engine": "DuckDB 2.0.0",
+    "path": "warehouse\\ontorisk.duckdb",
+    "rows": {
+      "DIM_TIME": 183,
+      "DIM_LOCATION": 32,
+      "DIM_RISKTYPE": 5,
+      "FACT_RISKEVENT": 387,
+      "BRIDGE_SEMANTIC_LINK": 1935,
+      "STG_ARTICLES": 240
+    },
+    "referential_checks": {
+      "fact_rows": 387,
+      "orphan_time": 0,
+      "orphan_location": 0,
+      "orphan_risktype": 0,
+      "facts_without_triples": 0,
+      "null_measures": 0
+    }
+  },
+  "association_rules": {
+    "algorithm": "FP-Growth (mlxtend)",
+    "min_support": 0.05,
+    "min_confidence": 0.6,
+    "min_lift": 1.1,
+    "frequent_itemsets": 103,
+    "rules": 27,
+    "apriori_rules_identical": true,
+    "top_rules": [
+      {
+        "antecedents": "co_risk=logistics, sector=Supply Chain & Logistics, severity=High",
+        "consequents": "risktype=weather",
+        "support": 0.0568,
+        "confidence": 0.88,
+        "lift": 3.96,
+        "leverage": 0.0425,
+        "conviction": 6.4815,
+        "n_items": 4
+      },
+      {
+        "antecedents": "sector=Finance, severity=Medium",
+        "consequents": "risktype=policy",
+        "support": 0.0594,
+        "confidence": 0.6571,
+        "lift": 3.4367,
+        "leverage": 0.0421,
+        "conviction": 2.359,
+        "n_items": 3
+      },
+      {
+        "antecedents": "co_risk=logistics, sector=Supply Chain & Logistics",
+        "consequents": "risktype=weather",
+        "support": 0.0801,
+        "confidence": 0.7561,
+        "lift": 3.4024,
+        "leverage": 0.0566,
+        "conviction": 3.1889,
+        "n_items": 3
+      },
+      {
+        "antecedents": "co_risk=logistics, severity=High",
+        "consequents": "risktype=weather",
+        "support": 0.0956,
+        "confidence": 0.74,
+        "lift": 3.33,
+        "leverage": 0.0669,
+        "conviction": 2.9915,
+        "n_items": 3
+      },
+      {
+        "antecedents": "risktype=policy, severity=Medium",
+        "consequents": "co_risk=supplier",
+        "support": 0.0672,
+        "confidence": 0.6047,
+        "lift": 3.2958,
+        "leverage": 0.0468,
+        "conviction": 2.0654,
+        "n_items": 3
+      },
+      {
+        "antecedents": "risktype=weather, sector=Supply Chain & Logistics, severity=High",
+        "consequents": "co_risk=logistics",
+        "support": 0.0568,
+        "confidence": 0.7586,
+        "lift": 3.2262,
+        "leverage": 0.0392,
+        "conviction": 3.1687,
+        "n_items": 4
+      },
+      {
+        "antecedents": "co_risk=supplier, severity=Medium",
+        "consequents": "risktype=policy",
+        "support": 0.0672,
+        "confidence": 0.6047,
+        "lift": 3.1622,
+        "leverage": 0.0459,
+        "conviction": 2.0458,
+        "n_items": 3
+      },
+      {
+        "antecedents": "risktype=weather, sector=Supply Chain & Logistics",
+        "consequents": "co_risk=logistics",
+        "support": 0.0801,
+        "confidence": 0.7045,
+        "lift": 2.9963,
+        "leverage": 0.0534,
+        "conviction": 2.5887,
+        "n_items": 3
+      },
+      {
+        "antecedents": "risktype=weather, severity=High",
+        "consequents": "co_risk=logistics",
+        "support": 0.0956,
+        "confidence": 0.6981,
+        "lift": 2.9689,
+        "leverage": 0.0634,
+        "conviction": 2.5336,
+        "n_items": 3
+      },
+      {
+        "antecedents": "region=East, severity=High",
+        "consequents": "risktype=weather",
+        "support": 0.0517,
+        "confidence": 0.6452,
+        "lift": 2.9032,
+        "leverage": 0.0339,
+        "conviction": 2.1919,
+        "n_items": 3
+      }
+    ]
+  },
+  "clustering": {
+    "k_values": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "inertia": [
+      1145.2730653498702,
+      946.5933222804953,
+      819.8067538968019,
+      725.0587782595337,
+      665.5282413397161,
+      614.4924539576361,
+      570.6625884001318,
+      535.3469173572757,
+      508.4076428270475
+    ],
+    "silhouette": [
+      0.2709721107992935,
+      0.21040472015677777,
+      0.22049506663372212,
+      0.23907922268634524,
+      0.23841775517415645,
+      0.2403723896696087,
+      0.24875008483891126,
+      0.2600683436385932,
+      0.26710553494923417
+    ],
+    "k_elbow": 5,
+    "k_best_silhouette": 2,
+    "k_chosen": 5,
+    "silhouette_chosen": 0.23907922268634524,
+    "pca_explained_variance": [
+      0.37897290912467985,
+      0.18385072591688453
+    ],
+    "features": [
+      "impact_score",
+      "mention_count",
+      "month_sin",
+      "month_cos",
+      "monsoon_season",
+      "rt_weather",
+      "rt_logistics",
+      "rt_policy",
+      "rt_supplier",
+      "rt_reputational"
+    ],
+    "profiles": [
+      {
+        "cluster": 0,
+        "size": 108,
+        "avg_impact": 4.32,
+        "avg_mentions": 1.0,
+        "top_risk_type": "logistics",
+        "top_risk_share": 0.361,
+        "top_region": "South",
+        "monsoon_share": 0.0,
+        "high_share": 0.009,
+        "label": "Low-impact mixed-type, off-monsoon"
+      },
+      {
+        "cluster": 1,
+        "size": 67,
+        "avg_impact": 8.574,
+        "avg_mentions": 2.373,
+        "top_risk_type": "weather",
+        "top_risk_share": 0.836,
+        "top_region": "South",
+        "monsoon_share": 0.896,
+        "high_share": 0.776,
+        "label": "High-impact weather, monsoon"
+      },
+      {
+        "cluster": 2,
+        "size": 88,
+        "avg_impact": 8.562,
+        "avg_mentions": 1.045,
+        "top_risk_type": "logistics",
+        "top_risk_share": 0.455,
+        "top_region": "West",
+        "monsoon_share": 0.511,
+        "high_share": 0.966,
+        "label": "High-impact mixed-type, all-year"
+      },
+      {
+        "cluster": 3,
+        "size": 51,
+        "avg_impact": 5.18,
+        "avg_mentions": 2.0,
+        "top_risk_type": "policy",
+        "top_risk_share": 0.608,
+        "top_region": "West",
+        "monsoon_share": 0.235,
+        "high_share": 0.059,
+        "label": "Moderate-impact policy, off-monsoon"
+      },
+      {
+        "cluster": 4,
+        "size": 73,
+        "avg_impact": 4.438,
+        "avg_mentions": 1.0,
+        "top_risk_type": "reputational",
+        "top_risk_share": 0.26,
+        "top_region": "West",
+        "monsoon_share": 1.0,
+        "high_share": 0.027,
+        "label": "Low-impact mixed-type, monsoon"
+      }
+    ]
+  },
+  "triple_precision": {
+    "predicted_events": 387,
+    "correct_events": 280,
+    "gold_events": 297,
+    "gold_events_found": 275,
+    "precision": 0.7235,
+    "recall": 0.9259,
+    "f1": 0.8123,
+    "precision_by_risk_type": {
+      "logistics": 0.832,
+      "policy": 0.622,
+      "reputational": 0.7,
+      "supplier": 0.828,
+      "weather": 0.605
+    },
+    "sample_precision": 0.74
+  },
+  "runtime_seconds": 29.3
+}

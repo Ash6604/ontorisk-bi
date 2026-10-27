@@ -1,0 +1,298 @@
+article_id,entity,location,state,risk_type,severity_hint
+A0001,Vijaynagar Credit Ltd,New Delhi,Delhi,policy,medium
+A0002,Saurashtra Logistics Ltd,Kolkata,West Bengal,logistics,medium
+A0003,Vindhya Cement Ltd,Tuticorin,Tamil Nadu,logistics,high
+A0004,Coromandel Shipping Lines,Kochi,Kerala,weather,high
+A0004,Coromandel Shipping Lines,Kolkata,West Bengal,logistics,high
+A0005,Nilgiri Pharma Ltd,Chennai,Tamil Nadu,logistics,high
+A0005,Nilgiri Pharma Ltd,Hosur,Tamil Nadu,supplier,high
+A0006,Himalaya Grocers Ltd,Bengaluru,Karnataka,reputational,low
+A0007,Sahyadri Textiles Ltd,Mumbai,Maharashtra,policy,medium
+A0008,Narmada Cooperative Bank,Noida,Uttar Pradesh,reputational,low
+A0008,Narmada Cooperative Bank,New Delhi,Delhi,policy,low
+A0009,Vizag Port Logistics Ltd,Kolkata,West Bengal,logistics,high
+A0010,Hosur Auto Components Ltd,Kolkata,West Bengal,weather,high
+A0011,Kalinga Steel Works,Kolkata,West Bengal,weather,high
+A0011,Kalinga Steel Works,Colombo,Western Province,logistics,high
+A0012,Sindhu Finance Ltd,Noida,Uttar Pradesh,reputational,low
+A0013,Annapurna Retail Ltd,Mumbai,Maharashtra,reputational,low
+A0014,Saurashtra Logistics Ltd,Bhubaneswar,Odisha,weather,medium
+A0015,BazaarKart Technologies,Mangaluru,Karnataka,weather,medium
+A0016,Godavari Chemicals Ltd,Bengaluru,Karnataka,supplier,low
+A0017,BazaarKart Technologies,Kolkata,West Bengal,weather,high
+A0018,Kaveri Fresh Mart,Bengaluru,Karnataka,reputational,medium
+A0019,Vijaynagar Credit Ltd,Gurugram,Haryana,reputational,low
+A0020,Saurashtra Logistics Ltd,Nhava Sheva,Maharashtra,logistics,high
+A0021,UrbanCart Retail,Kozhikode,Kerala,weather,medium
+A0022,Godavari Chemicals Ltd,Nashik,Maharashtra,supplier,high
+A0023,Sangam Fashion Stores,Kandla,Gujarat,logistics,high
+A0024,Nilgiri Pharma Ltd,Mumbai,Maharashtra,weather,high
+A0025,Eastern Gateway Logistics,Kolkata,West Bengal,weather,medium
+A0026,Saurashtra Logistics Ltd,Guwahati,Assam,weather,high
+A0026,Saurashtra Logistics Ltd,Nhava Sheva,Maharashtra,logistics,high
+A0027,Garuda Insurance Company,Ahmedabad,Gujarat,policy,medium
+A0028,Vindhya Cement Ltd,Nashik,Maharashtra,supplier,medium
+A0029,Himalaya Grocers Ltd,Visakhapatnam,Andhra Pradesh,logistics,high
+A0030,Deccan Warehousing Corporation,Singapore,Singapore,logistics,medium
+A0031,BazaarKart Technologies,New Delhi,Delhi,policy,medium
+A0032,Sangam Fashion Stores,Tuticorin,Tamil Nadu,logistics,low
+A0033,Vindhya Cement Ltd,Mumbai,Maharashtra,policy,medium
+A0033,Vindhya Cement Ltd,Coimbatore,Tamil Nadu,supplier,medium
+A0034,Sangam Fashion Stores,Visakhapatnam,Andhra Pradesh,logistics,high
+A0035,Deccan Warehousing Corporation,Kochi,Kerala,weather,high
+A0035,Deccan Warehousing Corporation,Haldia,West Bengal,logistics,high
+A0036,Annapurna Retail Ltd,Bengaluru,Karnataka,supplier,medium
+A0037,Coromandel Shipping Lines,Kandla,Gujarat,logistics,medium
+A0038,Vijaynagar Credit Ltd,New Delhi,Delhi,policy,medium
+A0038,Vijaynagar Credit Ltd,Jamshedpur,Jharkhand,supplier,medium
+A0039,Hosur Auto Components Ltd,Mumbai,Maharashtra,policy,medium
+A0039,Hosur Auto Components Ltd,Nashik,Maharashtra,supplier,medium
+A0040,Annapurna Retail Ltd,Tuticorin,Tamil Nadu,logistics,medium
+A0040,Annapurna Retail Ltd,Nashik,Maharashtra,supplier,medium
+A0041,Eastern Gateway Logistics,Singapore,Singapore,logistics,medium
+A0042,Sahyadri Textiles Ltd,Ludhiana,Punjab,supplier,high
+A0042,Sahyadri Textiles Ltd,Mumbai,Maharashtra,reputational,high
+A0043,Vizag Port Logistics Ltd,Visakhapatnam,Andhra Pradesh,logistics,high
+A0044,Kalinga Steel Works,Nhava Sheva,Maharashtra,logistics,medium
+A0045,Eastern Gateway Logistics,Kolkata,West Bengal,weather,high
+A0046,Vizag Port Logistics Ltd,Paradip,Odisha,weather,medium
+A0047,Saurashtra Logistics Ltd,Kolkata,West Bengal,weather,high
+A0048,Kalinga Steel Works,Nhava Sheva,Maharashtra,logistics,medium
+A0049,Konkan Freight Ltd,Visakhapatnam,Andhra Pradesh,logistics,low
+A0050,Godavari Chemicals Ltd,Paradip,Odisha,weather,high
+A0050,Godavari Chemicals Ltd,Mundra,Gujarat,logistics,high
+A0051,Coromandel Shipping Lines,Chennai,Tamil Nadu,logistics,medium
+A0051,Coromandel Shipping Lines,Coimbatore,Tamil Nadu,supplier,medium
+A0052,Eastern Gateway Logistics,Chennai,Tamil Nadu,logistics,low
+A0052,Eastern Gateway Logistics,Ludhiana,Punjab,supplier,low
+A0053,Sindhu Finance Ltd,New Delhi,Delhi,policy,medium
+A0054,Narmada Cooperative Bank,Mumbai,Maharashtra,policy,high
+A0055,Sahyadri Textiles Ltd,Chennai,Tamil Nadu,weather,high
+A0055,Sahyadri Textiles Ltd,Singapore,Singapore,logistics,high
+A0056,Kalinga Steel Works,Ludhiana,Punjab,supplier,high
+A0057,Vizag Port Logistics Ltd,Chennai,Tamil Nadu,weather,medium
+A0058,Eastern Gateway Logistics,Guwahati,Assam,weather,medium
+A0058,Eastern Gateway Logistics,Kolkata,West Bengal,logistics,medium
+A0059,Sangam Fashion Stores,Visakhapatnam,Andhra Pradesh,logistics,medium
+A0060,Hosur Auto Components Ltd,New Delhi,Delhi,policy,high
+A0061,Sangam Fashion Stores,Bhubaneswar,Odisha,weather,medium
+A0062,Eastern Gateway Logistics,Haldia,West Bengal,logistics,high
+A0063,Hosur Auto Components Ltd,Haldia,West Bengal,logistics,medium
+A0064,Garuda Insurance Company,New Delhi,Delhi,policy,low
+A0065,BazaarKart Technologies,Bengaluru,Karnataka,reputational,low
+A0066,Kalinga Steel Works,Pune,Maharashtra,supplier,high
+A0067,Garuda Insurance Company,New Delhi,Delhi,policy,medium
+A0068,Hosur Auto Components Ltd,Haldia,West Bengal,logistics,medium
+A0069,Kaveri Fresh Mart,Bengaluru,Karnataka,reputational,medium
+A0070,PaySetu Fintech,Mumbai,Maharashtra,policy,high
+A0070,PaySetu Fintech,Surat,Gujarat,supplier,high
+A0071,Kaveri Fresh Mart,Paradip,Odisha,weather,low
+A0071,Kaveri Fresh Mart,Kandla,Gujarat,logistics,low
+A0072,Vindhya Cement Ltd,Jamshedpur,Jharkhand,supplier,high
+A0073,Sahyadri Textiles Ltd,Paradip,Odisha,weather,high
+A0074,Nilgiri Pharma Ltd,Mumbai,Maharashtra,policy,medium
+A0075,BazaarKart Technologies,Hyderabad,Telangana,reputational,low
+A0076,Kaveri Fresh Mart,New Delhi,Delhi,policy,low
+A0077,Eastern Gateway Logistics,Kolkata,West Bengal,logistics,high
+A0078,Sangam Fashion Stores,Haldia,West Bengal,logistics,medium
+A0079,Kaveri Fresh Mart,Nhava Sheva,Maharashtra,logistics,high
+A0080,Nilgiri Pharma Ltd,Mangaluru,Karnataka,weather,high
+A0080,Nilgiri Pharma Ltd,Kandla,Gujarat,logistics,high
+A0081,Sangam Fashion Stores,Jamshedpur,Jharkhand,supplier,medium
+A0082,Himalaya Grocers Ltd,Singapore,Singapore,logistics,low
+A0083,Kaveri Fresh Mart,Chennai,Tamil Nadu,logistics,low
+A0084,Sangam Fashion Stores,Paradip,Odisha,weather,high
+A0085,UrbanCart Retail,Guwahati,Assam,weather,high
+A0085,UrbanCart Retail,Chennai,Tamil Nadu,logistics,high
+A0086,PaySetu Fintech,Gurugram,Haryana,reputational,medium
+A0087,Trident Capital Ltd,New Delhi,Delhi,policy,low
+A0088,Himalaya Grocers Ltd,Mundra,Gujarat,logistics,low
+A0089,Konkan Freight Ltd,Mundra,Gujarat,logistics,medium
+A0090,Kalinga Steel Works,Mundra,Gujarat,logistics,high
+A0091,Tapti Electronics Ltd,Bhubaneswar,Odisha,weather,high
+A0092,PaySetu Fintech,Mumbai,Maharashtra,reputational,high
+A0093,Brahmaputra Cargo Movers,Mundra,Gujarat,logistics,low
+A0094,BazaarKart Technologies,Nhava Sheva,Maharashtra,logistics,medium
+A0095,PaySetu Fintech,Noida,Uttar Pradesh,reputational,low
+A0096,Annapurna Retail Ltd,Kozhikode,Kerala,weather,high
+A0097,Trident Capital Ltd,Hyderabad,Telangana,reputational,low
+A0098,BazaarKart Technologies,Chennai,Tamil Nadu,logistics,medium
+A0099,Vijaynagar Credit Ltd,Mumbai,Maharashtra,reputational,medium
+A0100,Kalinga Steel Works,Mumbai,Maharashtra,weather,medium
+A0100,Kalinga Steel Works,Kandla,Gujarat,logistics,medium
+A0101,Narmada Cooperative Bank,Mumbai,Maharashtra,policy,medium
+A0102,BazaarKart Technologies,New Delhi,Delhi,policy,low
+A0103,Annapurna Retail Ltd,Gurugram,Haryana,reputational,medium
+A0104,Sahyadri Textiles Ltd,Pune,Maharashtra,supplier,high
+A0105,Tapti Electronics Ltd,Kochi,Kerala,weather,high
+A0105,Tapti Electronics Ltd,Haldia,West Bengal,logistics,high
+A0106,Annapurna Retail Ltd,Colombo,Western Province,logistics,medium
+A0107,Konkan Freight Ltd,Kolkata,West Bengal,weather,medium
+A0108,Kaveri Fresh Mart,Mumbai,Maharashtra,reputational,low
+A0109,Coromandel Shipping Lines,Kolkata,West Bengal,weather,high
+A0110,Vijaynagar Credit Ltd,Mumbai,Maharashtra,policy,medium
+A0111,Sindhu Finance Ltd,Hyderabad,Telangana,reputational,low
+A0112,BazaarKart Technologies,Mumbai,Maharashtra,policy,medium
+A0113,Coromandel Shipping Lines,Chennai,Tamil Nadu,weather,high
+A0114,Saurashtra Logistics Ltd,Paradip,Odisha,weather,high
+A0114,Saurashtra Logistics Ltd,Chennai,Tamil Nadu,logistics,high
+A0115,Vijaynagar Credit Ltd,Mumbai,Maharashtra,reputational,low
+A0116,Godavari Chemicals Ltd,Nashik,Maharashtra,supplier,low
+A0117,Kalinga Steel Works,Mumbai,Maharashtra,policy,high
+A0117,Kalinga Steel Works,Bengaluru,Karnataka,supplier,high
+A0118,Malabar Container Services,Mangaluru,Karnataka,weather,medium
+A0119,Kalinga Steel Works,Ludhiana,Punjab,supplier,high
+A0120,Coromandel Shipping Lines,Tuticorin,Tamil Nadu,logistics,high
+A0120,Coromandel Shipping Lines,Pune,Maharashtra,supplier,high
+A0121,Malabar Container Services,Chennai,Tamil Nadu,logistics,high
+A0122,Garuda Insurance Company,Mumbai,Maharashtra,policy,medium
+A0123,Garuda Insurance Company,Mumbai,Maharashtra,policy,medium
+A0123,Garuda Insurance Company,Hosur,Tamil Nadu,supplier,medium
+A0124,Sangam Fashion Stores,Tuticorin,Tamil Nadu,logistics,medium
+A0125,Saurashtra Logistics Ltd,Mangaluru,Karnataka,weather,high
+A0125,Saurashtra Logistics Ltd,Singapore,Singapore,logistics,high
+A0126,Garuda Insurance Company,Hyderabad,Telangana,reputational,medium
+A0127,Vizag Port Logistics Ltd,Singapore,Singapore,logistics,medium
+A0128,Kalinga Steel Works,Visakhapatnam,Andhra Pradesh,logistics,high
+A0129,Trident Capital Ltd,New Delhi,Delhi,policy,medium
+A0130,PaySetu Fintech,New Delhi,Delhi,policy,low
+A0130,PaySetu Fintech,Pune,Maharashtra,supplier,low
+A0131,Vijaynagar Credit Ltd,Hyderabad,Telangana,reputational,low
+A0132,Godavari Chemicals Ltd,Hosur,Tamil Nadu,supplier,medium
+A0133,Hosur Auto Components Ltd,New Delhi,Delhi,policy,high
+A0134,Brahmaputra Cargo Movers,Kozhikode,Kerala,weather,high
+A0134,Brahmaputra Cargo Movers,Kandla,Gujarat,logistics,high
+A0135,Vijaynagar Credit Ltd,New Delhi,Delhi,policy,medium
+A0136,Trident Capital Ltd,Mumbai,Maharashtra,reputational,medium
+A0137,Kalinga Steel Works,Paradip,Odisha,weather,medium
+A0137,Kalinga Steel Works,Kolkata,West Bengal,logistics,medium
+A0138,Saurashtra Logistics Ltd,Chennai,Tamil Nadu,weather,low
+A0139,Himalaya Grocers Ltd,Ludhiana,Punjab,supplier,medium
+A0140,BazaarKart Technologies,Singapore,Singapore,logistics,low
+A0141,Coromandel Shipping Lines,Paradip,Odisha,weather,medium
+A0141,Coromandel Shipping Lines,Mundra,Gujarat,logistics,medium
+A0142,Coromandel Shipping Lines,Tuticorin,Tamil Nadu,logistics,low
+A0143,Brahmaputra Cargo Movers,Kolkata,West Bengal,weather,medium
+A0143,Brahmaputra Cargo Movers,Kandla,Gujarat,logistics,medium
+A0144,Vizag Port Logistics Ltd,Mundra,Gujarat,logistics,medium
+A0145,Himalaya Grocers Ltd,Chennai,Tamil Nadu,weather,medium
+A0146,Narmada Cooperative Bank,Gurugram,Haryana,reputational,low
+A0147,Kalinga Steel Works,Ahmedabad,Gujarat,policy,medium
+A0148,Godavari Chemicals Ltd,Ludhiana,Punjab,supplier,high
+A0149,Tapti Electronics Ltd,Nashik,Maharashtra,supplier,low
+A0150,Sahyadri Textiles Ltd,Kolkata,West Bengal,logistics,high
+A0151,Eastern Gateway Logistics,Guwahati,Assam,weather,high
+A0151,Eastern Gateway Logistics,Haldia,West Bengal,logistics,high
+A0152,BazaarKart Technologies,Gurugram,Haryana,reputational,medium
+A0153,Vindhya Cement Ltd,Singapore,Singapore,logistics,medium
+A0154,Saurashtra Logistics Ltd,Nhava Sheva,Maharashtra,logistics,medium
+A0155,Saurashtra Logistics Ltd,Visakhapatnam,Andhra Pradesh,logistics,medium
+A0156,Garuda Insurance Company,Noida,Uttar Pradesh,reputational,low
+A0157,Annapurna Retail Ltd,Mumbai,Maharashtra,reputational,low
+A0158,Hosur Auto Components Ltd,Paradip,Odisha,weather,medium
+A0158,Hosur Auto Components Ltd,Colombo,Western Province,logistics,medium
+A0159,Trident Capital Ltd,Gurugram,Haryana,reputational,low
+A0160,Nilgiri Pharma Ltd,Surat,Gujarat,supplier,medium
+A0161,Garuda Insurance Company,New Delhi,Delhi,policy,medium
+A0161,Garuda Insurance Company,Pune,Maharashtra,supplier,medium
+A0162,Tapti Electronics Ltd,Pune,Maharashtra,supplier,medium
+A0163,Trident Capital Ltd,Bengaluru,Karnataka,reputational,low
+A0164,Konkan Freight Ltd,Chennai,Tamil Nadu,logistics,low
+A0165,Kalinga Steel Works,Surat,Gujarat,supplier,medium
+A0166,Godavari Chemicals Ltd,New Delhi,Delhi,policy,medium
+A0166,Godavari Chemicals Ltd,Surat,Gujarat,supplier,medium
+A0167,Kalinga Steel Works,Nashik,Maharashtra,supplier,medium
+A0168,Malabar Container Services,Guwahati,Assam,weather,medium
+A0169,Garuda Insurance Company,New Delhi,Delhi,policy,low
+A0170,Tapti Electronics Ltd,Colombo,Western Province,logistics,low
+A0171,Himalaya Grocers Ltd,New Delhi,Delhi,policy,medium
+A0171,Himalaya Grocers Ltd,Jamshedpur,Jharkhand,supplier,medium
+A0172,Hosur Auto Components Ltd,Hosur,Tamil Nadu,supplier,medium
+A0172,Hosur Auto Components Ltd,Mumbai,Maharashtra,reputational,medium
+A0173,Vijaynagar Credit Ltd,Hyderabad,Telangana,reputational,low
+A0174,Konkan Freight Ltd,Chennai,Tamil Nadu,logistics,medium
+A0174,Konkan Freight Ltd,Bengaluru,Karnataka,supplier,medium
+A0175,Vindhya Cement Ltd,Kozhikode,Kerala,weather,high
+A0175,Vindhya Cement Ltd,Visakhapatnam,Andhra Pradesh,logistics,high
+A0176,BazaarKart Technologies,Paradip,Odisha,weather,low
+A0177,Deccan Warehousing Corporation,Mangaluru,Karnataka,weather,medium
+A0177,Deccan Warehousing Corporation,Mundra,Gujarat,logistics,medium
+A0178,Vindhya Cement Ltd,Pune,Maharashtra,supplier,medium
+A0179,Himalaya Grocers Ltd,New Delhi,Delhi,policy,medium
+A0180,Narmada Cooperative Bank,New Delhi,Delhi,policy,medium
+A0180,Narmada Cooperative Bank,Nashik,Maharashtra,supplier,medium
+A0181,Himalaya Grocers Ltd,Visakhapatnam,Andhra Pradesh,logistics,medium
+A0182,Saurashtra Logistics Ltd,Singapore,Singapore,logistics,low
+A0183,Vijaynagar Credit Ltd,Hyderabad,Telangana,reputational,low
+A0184,Brahmaputra Cargo Movers,Mumbai,Maharashtra,weather,high
+A0185,Malabar Container Services,Paradip,Odisha,weather,high
+A0185,Malabar Container Services,Chennai,Tamil Nadu,logistics,high
+A0186,Malabar Container Services,Mumbai,Maharashtra,weather,high
+A0187,Vindhya Cement Ltd,Kochi,Kerala,weather,medium
+A0187,Vindhya Cement Ltd,Mundra,Gujarat,logistics,medium
+A0188,Vindhya Cement Ltd,Ahmedabad,Gujarat,policy,high
+A0189,Kalinga Steel Works,Surat,Gujarat,supplier,high
+A0190,Malabar Container Services,Colombo,Western Province,logistics,medium
+A0191,Sahyadri Textiles Ltd,Coimbatore,Tamil Nadu,supplier,medium
+A0191,Sahyadri Textiles Ltd,Hyderabad,Telangana,reputational,medium
+A0192,UrbanCart Retail,Bhubaneswar,Odisha,weather,high
+A0193,Sahyadri Textiles Ltd,Mumbai,Maharashtra,policy,low
+A0194,Garuda Insurance Company,Hyderabad,Telangana,reputational,medium
+A0195,Himalaya Grocers Ltd,Tuticorin,Tamil Nadu,logistics,medium
+A0196,Kaveri Fresh Mart,Bengaluru,Karnataka,supplier,high
+A0197,UrbanCart Retail,Hyderabad,Telangana,reputational,low
+A0198,Kaveri Fresh Mart,Gurugram,Haryana,reputational,medium
+A0199,Saurashtra Logistics Ltd,Kolkata,West Bengal,weather,high
+A0200,Trident Capital Ltd,New Delhi,Delhi,policy,high
+A0201,Eastern Gateway Logistics,Paradip,Odisha,weather,medium
+A0202,Coromandel Shipping Lines,Haldia,West Bengal,logistics,high
+A0203,Kaveri Fresh Mart,Colombo,Western Province,logistics,high
+A0204,Deccan Warehousing Corporation,Nhava Sheva,Maharashtra,logistics,medium
+A0205,UrbanCart Retail,Kandla,Gujarat,logistics,high
+A0206,Nilgiri Pharma Ltd,Coimbatore,Tamil Nadu,supplier,high
+A0206,Nilgiri Pharma Ltd,Bengaluru,Karnataka,reputational,high
+A0207,Eastern Gateway Logistics,Kolkata,West Bengal,weather,medium
+A0207,Eastern Gateway Logistics,Haldia,West Bengal,logistics,medium
+A0208,Hosur Auto Components Ltd,Nashik,Maharashtra,supplier,medium
+A0209,Saurashtra Logistics Ltd,Visakhapatnam,Andhra Pradesh,logistics,high
+A0209,Saurashtra Logistics Ltd,Ludhiana,Punjab,supplier,high
+A0210,Godavari Chemicals Ltd,Nashik,Maharashtra,supplier,high
+A0211,Kalinga Steel Works,Ahmedabad,Gujarat,policy,medium
+A0212,Coromandel Shipping Lines,Mundra,Gujarat,logistics,medium
+A0213,Himalaya Grocers Ltd,Mundra,Gujarat,logistics,low
+A0214,Annapurna Retail Ltd,Gurugram,Haryana,reputational,medium
+A0215,Trident Capital Ltd,Hyderabad,Telangana,reputational,low
+A0216,Konkan Freight Ltd,Bhubaneswar,Odisha,weather,high
+A0217,Annapurna Retail Ltd,Jamshedpur,Jharkhand,supplier,medium
+A0218,Eastern Gateway Logistics,Colombo,Western Province,logistics,high
+A0219,Hosur Auto Components Ltd,Chennai,Tamil Nadu,logistics,medium
+A0220,Narmada Cooperative Bank,New Delhi,Delhi,policy,medium
+A0220,Narmada Cooperative Bank,Hosur,Tamil Nadu,supplier,medium
+A0221,Deccan Warehousing Corporation,Haldia,West Bengal,logistics,high
+A0222,PaySetu Fintech,Mumbai,Maharashtra,policy,high
+A0223,Narmada Cooperative Bank,Mumbai,Maharashtra,policy,medium
+A0223,Narmada Cooperative Bank,Ludhiana,Punjab,supplier,medium
+A0224,BazaarKart Technologies,Hyderabad,Telangana,reputational,low
+A0225,BazaarKart Technologies,Surat,Gujarat,supplier,medium
+A0226,Tapti Electronics Ltd,Visakhapatnam,Andhra Pradesh,logistics,medium
+A0227,Brahmaputra Cargo Movers,Mumbai,Maharashtra,weather,medium
+A0227,Brahmaputra Cargo Movers,Tuticorin,Tamil Nadu,logistics,medium
+A0228,Godavari Chemicals Ltd,Mumbai,Maharashtra,weather,high
+A0229,Saurashtra Logistics Ltd,Kandla,Gujarat,logistics,medium
+A0230,Sahyadri Textiles Ltd,Surat,Gujarat,supplier,high
+A0231,Kalinga Steel Works,Bengaluru,Karnataka,supplier,low
+A0232,UrbanCart Retail,Noida,Uttar Pradesh,reputational,high
+A0232,UrbanCart Retail,New Delhi,Delhi,policy,high
+A0233,Annapurna Retail Ltd,Kandla,Gujarat,logistics,medium
+A0234,Kalinga Steel Works,New Delhi,Delhi,policy,medium
+A0234,Kalinga Steel Works,Pune,Maharashtra,supplier,medium
+A0235,Himalaya Grocers Ltd,Kolkata,West Bengal,logistics,medium
+A0236,Annapurna Retail Ltd,Chennai,Tamil Nadu,logistics,high
+A0236,Annapurna Retail Ltd,Ludhiana,Punjab,supplier,high
+A0237,Eastern Gateway Logistics,Mumbai,Maharashtra,weather,high
+A0237,Eastern Gateway Logistics,Nhava Sheva,Maharashtra,logistics,high
+A0238,Kaveri Fresh Mart,Ludhiana,Punjab,supplier,medium
+A0239,UrbanCart Retail,Hyderabad,Telangana,reputational,low
+A0239,UrbanCart Retail,New Delhi,Delhi,policy,low
+A0240,UrbanCart Retail,Gurugram,Haryana,reputational,high
+A0240,UrbanCart Retail,New Delhi,Delhi,policy,high

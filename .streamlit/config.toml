@@ -1,0 +1,35 @@
+# Streamlit theme for the OntoRisk BI dashboard (dark-first, pure black canvas).
+# Picked up when `streamlit run dashboard/app.py` is launched from the project root.
+# Component-level styling (cards, motion, lighting) lives in dashboard/ui.py.
+
+[theme]
+base = "dark"
+primaryColor = "#8B5CF6"
+backgroundColor = "#000000"
+secondaryBackgroundColor = "#12141B"
+textColor = "#F8FAFC"
+linkColor = "#22D3EE"
+borderColor = "#27272A"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "10px"
+buttonRadius = "10px"
+baseFontSize = 14
+font = "'Geist':https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap, Inter, system-ui, sans-serif"
+headingFont = "'Geist':https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap, Inter, system-ui, sans-serif"
+codeFont = "'Geist Mono':https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500&display=swap, ui-monospace, monospace"
+codeBackgroundColor = "#12141B"
+dataframeBorderColor = "#1C1E26"
+dataframeHeaderBackgroundColor = "#0D0F14"
+chartCategoricalColors = ["#8B5CF6", "#0891B2", "#F43F5E", "#3B82F6", "#D97706", "#059669", "#D946EF", "#65A30D"]
+
+[theme.sidebar]
+backgroundColor = "#08090D"
+secondaryBackgroundColor = "#12141B"
+borderColor = "#1C1E26"
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false

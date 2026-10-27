@@ -1,0 +1,6 @@
+cluster,size,avg_impact,avg_mentions,top_risk_type,top_risk_share,top_region,monsoon_share,high_share,label
+0,108,4.32,1.0,logistics,0.361,South,0.0,0.009,"Low-impact mixed-type, off-monsoon"
+1,67,8.574,2.373,weather,0.836,South,0.896,0.776,"High-impact weather, monsoon"
+2,88,8.562,1.045,logistics,0.455,West,0.511,0.966,"High-impact mixed-type, all-year"
+3,51,5.18,2.0,policy,0.608,West,0.235,0.059,"Moderate-impact policy, off-monsoon"
+4,73,4.438,1.0,reputational,0.26,West,1.0,0.027,"Low-impact mixed-type, monsoon"

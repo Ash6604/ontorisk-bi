@@ -1,0 +1,104 @@
+support,itemsets
+0.43410852713178294,severity=Medium
+0.3695090439276486,severity=High
+0.32299741602067183,sector=Supply Chain & Logistics
+0.31266149870801035,region=West
+0.3049095607235142,sector=Manufacturing
+0.3049095607235142,region=South
+0.29198966408268734,risktype=logistics
+0.2351421188630491,co_risk=logistics
+0.2222222222222222,risktype=weather
+0.19638242894056848,severity=Low
+0.19121447028423771,risktype=policy
+0.1834625322997416,co_risk=supplier
+0.17571059431524547,"risktype=logistics, sector=Supply Chain & Logistics"
+0.1731266149870801,sector=Retail
+0.165374677002584,risktype=supplier
+0.16279069767441862,sector=Finance
+0.15762273901808785,"region=West, severity=Medium"
+0.15762273901808785,"sector=Supply Chain & Logistics, severity=High"
+0.14987080103359174,region=East
+0.14987080103359174,region=North
+0.1421188630490956,"sector=Manufacturing, severity=High"
+0.13953488372093023,"co_risk=logistics, risktype=weather"
+0.13695090439276486,"risktype=weather, severity=High"
+0.13178294573643412,co_risk=weather
+0.12919896640826872,risktype=reputational
+0.12919896640826872,"region=South, severity=Medium"
+0.12919896640826872,"co_risk=logistics, severity=High"
+0.12661498708010335,"risktype=logistics, severity=Medium"
+0.12403100775193798,"sector=Manufacturing, severity=Medium"
+0.12144702842377261,"region=West, sector=Manufacturing"
+0.11369509043927649,"risktype=logistics, severity=High"
+0.11369509043927649,"risktype=weather, sector=Supply Chain & Logistics"
+0.11369509043927649,"sector=Supply Chain & Logistics, severity=Medium"
+0.1111111111111111,"risktype=policy, severity=Medium"
+0.1111111111111111,"region=West, severity=High"
+0.1111111111111111,"co_risk=supplier, severity=Medium"
+0.10852713178294573,"region=South, sector=Supply Chain & Logistics"
+0.10594315245478036,"co_risk=logistics, sector=Supply Chain & Logistics"
+0.10335917312661498,"region=South, severity=High"
+0.10077519379844961,"region=South, risktype=logistics"
+0.09560723514211886,"co_risk=logistics, risktype=weather, severity=High"
+0.09560723514211886,co_risk=policy
+0.09043927648578812,"risktype=supplier, sector=Manufacturing"
+0.09043927648578812,"sector=Retail, severity=Medium"
+0.09043927648578812,"region=South, sector=Manufacturing"
+0.09043927648578812,"sector=Finance, severity=Medium"
+0.08785529715762273,"region=West, risktype=logistics"
+0.082687338501292,"co_risk=supplier, risktype=policy"
+0.082687338501292,"risktype=policy, sector=Finance"
+0.082687338501292,"region=West, sector=Supply Chain & Logistics"
+0.08010335917312661,"region=North, risktype=policy"
+0.08010335917312661,"region=East, severity=High"
+0.08010335917312661,"co_risk=logistics, risktype=weather, sector=Supply Chain & Logistics"
+0.07751937984496124,"region=East, sector=Supply Chain & Logistics"
+0.07751937984496124,"region=East, risktype=weather"
+0.07493540051679587,"risktype=weather, sector=Supply Chain & Logistics, severity=High"
+0.07493540051679587,"co_risk=logistics, region=South"
+0.07493540051679587,"risktype=weather, severity=Medium"
+0.07493540051679587,"risktype=logistics, sector=Supply Chain & Logistics, severity=Medium"
+0.07493540051679587,"co_risk=weather, risktype=logistics"
+0.07235142118863049,"co_risk=logistics, sector=Manufacturing"
+0.07235142118863049,co_risk=reputational
+0.07235142118863049,"risktype=supplier, severity=Medium"
+0.07235142118863049,"region=South, severity=Low"
+0.07235142118863049,"region=West, risktype=policy"
+0.07235142118863049,"co_risk=logistics, severity=Medium"
+0.06976744186046512,"risktype=logistics, sector=Supply Chain & Logistics, severity=High"
+0.06976744186046512,"risktype=weather, sector=Manufacturing"
+0.06718346253229975,"region=West, risktype=supplier"
+0.06718346253229975,"risktype=logistics, sector=Manufacturing"
+0.06718346253229975,"co_risk=supplier, region=West"
+0.06718346253229975,"co_risk=supplier, risktype=policy, severity=Medium"
+0.06718346253229975,"region=South, risktype=weather"
+0.06718346253229975,"region=West, sector=Manufacturing, severity=Medium"
+0.06459948320413436,"co_risk=logistics, sector=Supply Chain & Logistics, severity=High"
+0.06459948320413436,"co_risk=logistics, region=West"
+0.06459948320413436,"co_risk=supplier, risktype=logistics"
+0.06459948320413436,"risktype=reputational, severity=Low"
+0.06201550387596899,region=International
+0.06201550387596899,"co_risk=supplier, sector=Manufacturing"
+0.06201550387596899,"co_risk=weather, sector=Supply Chain & Logistics"
+0.06201550387596899,"region=North, severity=Medium"
+0.06201550387596899,"region=South, risktype=logistics, sector=Supply Chain & Logistics"
+0.059431524547803614,"region=West, sector=Finance"
+0.059431524547803614,"region=North, sector=Finance"
+0.059431524547803614,"risktype=policy, sector=Finance, severity=Medium"
+0.056847545219638244,"region=South, sector=Retail"
+0.056847545219638244,"co_risk=supplier, region=South"
+0.056847545219638244,"co_risk=logistics, risktype=weather, sector=Supply Chain & Logistics, severity=High"
+0.056847545219638244,"co_risk=weather, severity=High"
+0.05426356589147287,"risktype=supplier, severity=High"
+0.05426356589147287,"risktype=policy, sector=Manufacturing"
+0.05426356589147287,"region=South, risktype=reputational"
+0.05426356589147287,"region=West, risktype=logistics, sector=Supply Chain & Logistics"
+0.05426356589147287,"co_risk=supplier, sector=Supply Chain & Logistics"
+0.05426356589147287,"risktype=reputational, sector=Finance"
+0.05426356589147287,"sector=Finance, severity=Low"
+0.05167958656330749,"region=South, risktype=supplier"
+0.05167958656330749,"region=East, risktype=weather, severity=High"
+0.05167958656330749,"risktype=weather, sector=Manufacturing, severity=High"
+0.05167958656330749,"risktype=logistics, severity=Low"
+0.05167958656330749,"sector=Supply Chain & Logistics, severity=Low"
+0.05167958656330749,"co_risk=supplier, severity=High"

@@ -1,0 +1,170 @@
+{
+  "_comment": "Curated risk vocabulary (project artefact, Section 4.3). Each risk type maps to a sub_type and a list of terms with a weight 1-3 used in impact scoring. 'sector_terms' are used to assign a sector to every event; 'intensity_terms' raise the impact score.",
+  "risk_types": {
+    "weather": {
+      "sub_type": "Monsoon / natural disaster",
+      "terms": {
+        "monsoon": 2,
+        "heavy rainfall": 2,
+        "heavy rain": 2,
+        "flood": 3,
+        "floods": 3,
+        "flooding": 3,
+        "waterlogging": 2,
+        "cyclone": 3,
+        "landslide": 3,
+        "landslides": 3,
+        "heatwave": 2,
+        "drought": 2,
+        "storm": 2,
+        "cloudburst": 3,
+        "inundated": 2
+      }
+    },
+    "logistics": {
+      "sub_type": "Port congestion / transport disruption",
+      "terms": {
+        "port congestion": 3,
+        "congestion": 2,
+        "container shortage": 2,
+        "vessel backlog": 2,
+        "berthing delays": 2,
+        "freight delays": 2,
+        "truckers' strike": 3,
+        "transporters' strike": 3,
+        "rail disruption": 2,
+        "shipment delays": 2,
+        "highway closure": 2,
+        "dwell time": 1,
+        "cargo pile-up": 2
+      }
+    },
+    "policy": {
+      "sub_type": "Regulatory / policy change",
+      "terms": {
+        "export ban": 3,
+        "import duty": 2,
+        "tariff hike": 2,
+        "gst revision": 2,
+        "gst": 1,
+        "regulatory crackdown": 3,
+        "rbi circular": 2,
+        "licence suspension": 3,
+        "policy change": 2,
+        "new compliance norms": 2,
+        "penalty": 2,
+        "anti-dumping duty": 2,
+        "price cap": 2
+      }
+    },
+    "supplier": {
+      "sub_type": "Supplier failure / input shortage",
+      "terms": {
+        "supplier insolvency": 3,
+        "raw material shortage": 2,
+        "plant shutdown": 3,
+        "chip shortage": 2,
+        "supplier default": 3,
+        "labour strike": 2,
+        "production halt": 3,
+        "input shortage": 2,
+        "component shortage": 2,
+        "insolvency": 3,
+        "fire at the plant": 3
+      }
+    },
+    "reputational": {
+      "sub_type": "Brand / reputational incident",
+      "terms": {
+        "product recall": 3,
+        "recall": 2,
+        "consumer boycott": 2,
+        "data breach": 3,
+        "fraud allegation": 3,
+        "fraud allegations": 3,
+        "social media backlash": 2,
+        "quality complaints": 2,
+        "customer complaints": 1,
+        "misselling": 2,
+        "whistleblower": 2
+      }
+    }
+  },
+  "sector_terms": {
+    "Supply Chain & Logistics": [
+      "logistics",
+      "freight",
+      "warehouse",
+      "warehousing",
+      "shipping",
+      "cargo",
+      "container",
+      "trucking",
+      "port",
+      "courier",
+      "movers",
+      "terminal",
+      "shipments",
+      "consignments"
+    ],
+    "Retail": [
+      "retail",
+      "retailer",
+      "stores",
+      "outlets",
+      "e-commerce",
+      "consumer",
+      "fmcg",
+      "shoppers",
+      "grocery",
+      "grocers",
+      "fresh mart",
+      "fashion"
+    ],
+    "Finance": [
+      "bank",
+      "lender",
+      "nbfc",
+      "loan",
+      "credit",
+      "fintech",
+      "insurance",
+      "deposits",
+      "payments",
+      "finance",
+      "capital"
+    ],
+    "Manufacturing": [
+      "plant",
+      "factory",
+      "manufacturing",
+      "production",
+      "assembly",
+      "steel",
+      "textile",
+      "auto components",
+      "pharma",
+      "mill",
+      "textiles",
+      "cement",
+      "chemicals",
+      "electronics"
+    ]
+  },
+  "intensity_terms": {
+    "severe": 1.0,
+    "massive": 1.0,
+    "halted": 1.0,
+    "shut": 1.0,
+    "suspended": 0.8,
+    "crippled": 1.0,
+    "worst": 1.0,
+    "crore": 0.6,
+    "losses": 0.6,
+    "stranded": 0.8,
+    "minor": -1.0,
+    "limited impact": -1.2,
+    "partially": -0.5,
+    "resumed": -0.6
+  }
+}

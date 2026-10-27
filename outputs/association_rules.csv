@@ -1,0 +1,28 @@
+antecedents,consequents,support,confidence,lift,leverage,conviction,n_items
+"co_risk=logistics, sector=Supply Chain & Logistics, severity=High",risktype=weather,0.0568,0.88,3.96,0.0425,6.4815,4
+"sector=Finance, severity=Medium",risktype=policy,0.0594,0.6571,3.4367,0.0421,2.359,3
+"co_risk=logistics, sector=Supply Chain & Logistics",risktype=weather,0.0801,0.7561,3.4024,0.0566,3.1889,3
+"co_risk=logistics, severity=High",risktype=weather,0.0956,0.74,3.33,0.0669,2.9915,3
+"risktype=policy, severity=Medium",co_risk=supplier,0.0672,0.6047,3.2958,0.0468,2.0654,3
+"risktype=weather, sector=Supply Chain & Logistics, severity=High",co_risk=logistics,0.0568,0.7586,3.2262,0.0392,3.1687,4
+"co_risk=supplier, severity=Medium",risktype=policy,0.0672,0.6047,3.1622,0.0459,2.0458,3
+"risktype=weather, sector=Supply Chain & Logistics",co_risk=logistics,0.0801,0.7045,2.9963,0.0534,2.5887,3
+"risktype=weather, severity=High",co_risk=logistics,0.0956,0.6981,2.9689,0.0634,2.5336,3
+"region=East, severity=High",risktype=weather,0.0517,0.6452,2.9032,0.0339,2.1919,3
+risktype=weather,co_risk=logistics,0.1395,0.6279,2.6703,0.0873,2.0556,2
+"sector=Supply Chain & Logistics, severity=Medium",risktype=logistics,0.0749,0.6591,2.2572,0.0417,2.0768,3
+"region=West, sector=Supply Chain & Logistics",risktype=logistics,0.0543,0.6562,2.2475,0.0301,2.0597,3
+"risktype=weather, sector=Manufacturing",severity=High,0.0517,0.7407,2.0047,0.0259,2.4319,3
+"co_risk=logistics, risktype=weather, sector=Supply Chain & Logistics",severity=High,0.0568,0.7097,1.9206,0.0272,2.1717,4
+"region=West, risktype=logistics",sector=Supply Chain & Logistics,0.0543,0.6176,1.9122,0.0259,1.7706,3
+"region=South, risktype=logistics",sector=Supply Chain & Logistics,0.062,0.6154,1.9052,0.0295,1.7602,3
+"risktype=logistics, severity=High",sector=Supply Chain & Logistics,0.0698,0.6136,1.8998,0.033,1.7522,3
+"co_risk=supplier, risktype=policy",severity=Medium,0.0672,0.8125,1.8717,0.0313,3.0181,3
+risktype=logistics,sector=Supply Chain & Logistics,0.1757,0.6018,1.8631,0.0814,1.7,2
+"co_risk=logistics, risktype=weather",severity=High,0.0956,0.6852,1.8543,0.044,2.0027,3
+"region=East, risktype=weather",severity=High,0.0517,0.6667,1.8042,0.023,1.8915,3
+"risktype=weather, sector=Supply Chain & Logistics",severity=High,0.0749,0.6591,1.7837,0.0329,1.8494,3
+risktype=weather,severity=High,0.137,0.6163,1.6678,0.0548,1.6431,2
+"risktype=policy, sector=Finance",severity=Medium,0.0594,0.7187,1.6557,0.0235,2.0121,3
+"co_risk=logistics, sector=Supply Chain & Logistics",severity=High,0.0646,0.6098,1.6502,0.0255,1.6156,3
+co_risk=supplier,severity=Medium,0.1111,0.6056,1.3951,0.0315,1.4349,2
