@@ -126,7 +126,7 @@ def severity_by_type(ev: pd.DataFrame):
         left += tab[s]
     ax.set_xlim(0, 1)
     ax.xaxis.set_major_formatter(matplotlib.ticker.PercentFormatter(1.0))
-    ax.set_title("Severity mix by risk type")
+    ax.set_title("Severity mix by risk type", pad=24)
     ax.grid(axis="y", visible=False)
     ax.legend(frameon=False, ncol=3, fontsize=8, loc="lower left", bbox_to_anchor=(0, 1.0))
     _save(fig, "severity_by_type.png")

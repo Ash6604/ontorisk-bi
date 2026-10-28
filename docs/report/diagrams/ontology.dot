@@ -1,0 +1,11 @@
+digraph O {
+  rankdir=LR; dpi=300; bgcolor="white"; nodesep=0.3; ranksep=0.55; pad=0.1;
+  node [shape=box, style="rounded,filled", fillcolor="#E8E4F8", color="#5B4BA0", fontname="Times New Roman Bold", fontsize=10, penwidth=0.9];
+  edge [color="#333333", arrowsize=0.6, fontname="Times New Roman Italic", fontsize=9, penwidth=0.9];
+  Entity -> RiskEvent [label="affects"];
+  RiskEvent -> Location [label="locatedIn\n(functional)"];
+  RiskEvent -> RiskType [label="riskCategory (data)", style=dashed, color="#777777"];
+  RiskEvent -> SourceArticle [label="sourceId (data)", style=dashed, color="#777777"];
+  RiskTerm -> RiskType [label="signalsCategory (data)", style=dashed, color="#777777"];
+  {rank=same; Entity; RiskTerm}
+}

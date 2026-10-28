@@ -1,0 +1,41 @@
+// Fig. 1 - OntoRisk BI system architecture. Render: dot -Tpng:gdiplus architecture.dot -o ../img/architecture.png
+digraph G {
+  rankdir=TB; dpi=300; bgcolor="white"; nodesep=0.22; ranksep=0.30; pad=0.08; newrank=true;
+  node [shape=box, style="rounded,filled", fillcolor="#F3F5F9", color="#5B6B85", fontname="Times New Roman",
+        fontsize=10, penwidth=0.9, margin="0.10,0.05", width=1.45];
+  edge [color="#5B6B85", arrowsize=0.6, penwidth=0.9, fontname="Times New Roman", fontsize=8];
+
+  subgraph cluster_a { label=<<b>1. Acquisition &amp; NLP</b>>; fontsize=9; style="dashed,rounded"; color="#9AA6B8"; labeljust=l;
+    corpus [group=a, label="News corpus\n(240 articles)"];
+    prep   [group=b, label="Preprocessing\n(tokens, lemmas)"];
+    ner    [group=c, label="spaCy NER +\nrisk vocabulary"]; }
+  subgraph cluster_b { label=<<b>2. Semantic layer</b>>; fontsize=9; style="dashed,rounded"; color="#9AA6B8"; labeljust=l;
+    rule   [group=a, label="Co-occurrence rule\n+ impact score"];
+    kg     [group=b, label="RDF knowledge graph\n(OWL ontology)", fillcolor="#E8E4F8"];
+    sparql [group=c, label="SPARQL\nvalidation"]; }
+  subgraph cluster_c { label=<<b>3. Hybrid warehouse</b>>; fontsize=9; style="dashed,rounded"; color="#9AA6B8"; labeljust=l;
+    etl    [group=a, label="Pandas ETL +\nquality checks"];
+    dw     [group=b, label="DuckDB star schema\n+ semantic bridge", fillcolor="#E3F1F6"]; }
+  subgraph cluster_d { label=<<b>4. Mining &amp; presentation</b>>; fontsize=9; style="dashed,rounded"; color="#9AA6B8"; labeljust=l;
+    fp     [group=a, label="FP-Growth\nassociation rules"];
+    km     [group=b, label="k-Means clustering\n(elbow, silhouette)"];
+    dash   [group=c, label="Streamlit\ndashboard", fillcolor="#E6F4EC"]; }
+
+  {rank=same; corpus; prep; ner}
+  {rank=same; rule; kg; sparql}
+  {rank=same; etl; dw}
+  {rank=same; fp; km; dash}
+
+  corpus -> prep -> ner;
+  ner -> rule [constraint=false];
+  corpus -> rule [style=invis, weight=30];
+  rule -> kg -> sparql;
+  rule -> etl [weight=30];
+  etl -> dw;
+  kg -> dw [style=dashed, label=" event_id", weight=30];
+  etl -> fp [style=invis, weight=30];
+  dw -> fp; dw -> km [weight=30];
+  fp -> km [style=invis]; km -> dash;
+  fp:s -> dash:s [constraint=false];
+  sparql -> dash [style=dashed, label=" queries", constraint=false];
+}

@@ -1,0 +1,11 @@
+graph S {
+  rankdir=LR; dpi=300; bgcolor="white"; nodesep=0.25; ranksep=0.35; pad=0.08;
+  node [shape=plain, fontname="Times New Roman", fontsize=9];
+  edge [color="#5B6B85", penwidth=0.9];
+  fact [label=<<table border="1" cellborder="0" cellspacing="0" cellpadding="2" color="#1F4E79"><tr><td bgcolor="#1F4E79"><font color="white"><b>FACT_RISKEVENT</b></font></td></tr><tr><td align="left">event_id (PK)</td></tr><tr><td align="left">time_key (FK)</td></tr><tr><td align="left">location_key (FK)</td></tr><tr><td align="left">risktype_key (FK)</td></tr><tr><td align="left">entity_name, sector, source_id</td></tr><tr><td align="left"><i>impact_score, severity,</i></td></tr><tr><td align="left"><i>mention_count</i></td></tr></table>>];
+  t [label=<<table border="1" cellborder="0" cellspacing="0" cellpadding="2" color="#5B6B85"><tr><td bgcolor="#DCE3EE"><b>DIM_TIME</b></td></tr><tr><td align="left">time_key (PK)</td></tr><tr><td align="left">date, week, month,</td></tr><tr><td align="left">quarter, year</td></tr></table>>];
+  l [label=<<table border="1" cellborder="0" cellspacing="0" cellpadding="2" color="#5B6B85"><tr><td bgcolor="#DCE3EE"><b>DIM_LOCATION</b></td></tr><tr><td align="left">location_key (PK)</td></tr><tr><td align="left">place, region,</td></tr><tr><td align="left">state, country</td></tr></table>>];
+  r [label=<<table border="1" cellborder="0" cellspacing="0" cellpadding="2" color="#5B6B85"><tr><td bgcolor="#DCE3EE"><b>DIM_RISKTYPE</b></td></tr><tr><td align="left">risktype_key (PK)</td></tr><tr><td align="left">category, sub_type</td></tr></table>>];
+  b [label=<<table border="1" cellborder="0" cellspacing="0" cellpadding="2" color="#5B4BA0"><tr><td bgcolor="#E8E4F8"><b>BRIDGE_SEMANTIC_LINK</b></td></tr><tr><td align="left">event_id (FK)</td></tr><tr><td align="left">subject, predicate,</td></tr><tr><td align="left">object (RDF triple)</td></tr></table>>];
+  t -- fact; r -- fact; fact -- l; fact -- b [style=dashed];
+}
