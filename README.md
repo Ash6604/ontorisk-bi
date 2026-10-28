@@ -1,8 +1,5 @@
 # OntoRisk BI — Ontology-Driven Semantic Data Warehouse for Proactive Business Risk Intelligence
 
-Minor project, B.Tech CSE, Manipal Institute of Technology Bengaluru
-(Aishwarya Patil, Thiriveedhi Venkata Subba Sai Teja, Dhruv Naveen, Shaswat Das — guide: Dr. Sathiyaraj Rajendran).
-
 Unstructured news text → **spaCy NER** → **co-occurrence RDF triples** linked to a **6-class OWL ontology** →
 **DuckDB star schema** (+ semantic bridge) → **FP-Growth rules** and **k-Means clusters** → **Streamlit dashboard**.
 
