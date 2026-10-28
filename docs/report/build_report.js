@@ -240,16 +240,30 @@ startSection(1);
 body.push(new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 200 },
   children: [new TextRun({ text: "OntoRisk BI: An Ontology-Driven Semantic Data Warehouse for Proactive Business Risk Intelligence",
                            font: FONT, size: 48 })] }));
-body.push(new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 40 },
-  children: [new TextRun({ text: "Aishwarya Patil, Thiriveedhi Venkata Subba Sai Teja, Dhruv Naveen, Shaswat Das, and Sathiyaraj Rajendran",
-                           font: FONT, size: 22 })] }));
-body.push(new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 0 },
-  children: [new TextRun({ text: "Department of Computer Science and Engineering", font: FONT, size: 20, italics: true })] }));
-body.push(new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 0 },
-  children: [new TextRun({ text: "Manipal Institute of Technology Bengaluru, Manipal Academy of Higher Education, Manipal, India",
-                           font: FONT, size: 20, italics: true })] }));
-body.push(new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 280 },
-  children: [new TextRun({ text: "Source code: https://github.com/Ash6604/ontorisk-bi", font: FONT, size: 18 })] }));
+// IEEE author block: one column per author, name over registration number
+const AUTHORS = [
+  ["Aishwarya Patil", "235890068"],
+  ["Thiriveedhi Venkata Subba Sai Teja", "235890021"],
+  ["Dhruv Naveen", "235890154"],
+  ["Shaswat Das", "235890222"],
+];
+{
+  const w = Math.floor(TEXT_W / AUTHORS.length);
+  const none = { style: BorderStyle.NONE, size: 0, color: "FFFFFF" };
+  body.push(new Table({
+    width: { size: w * AUTHORS.length, type: WidthType.DXA }, columnWidths: AUTHORS.map(() => w),
+    rows: [new TableRow({ children: AUTHORS.map(([name, reg]) => new TableCell({
+      width: { size: w, type: WidthType.DXA }, borders: { top: none, bottom: none, left: none, right: none },
+      margins: { left: 80, right: 80 },
+      children: [
+        new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: name, font: FONT, size: 22 })] }),
+        new Paragraph({ alignment: AlignmentType.CENTER,
+                        children: [new TextRun({ text: `Reg. No. ${reg}`, font: FONT, size: 20, italics: true })] }),
+      ],
+    })) })],
+  }));
+}
+body.push(new Paragraph({ spacing: { after: 280 }, children: [] }));
 
 // ================================================================== BODY (2 columns)
 startSection(2);
